@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
 using WebsiteBanPhuKien.Models;
 using WebsiteBanPhuKien.Models.ViewModels;
@@ -9,16 +10,20 @@ namespace WebsiteBanPhuKien.Controllers
     public class AdminSetupController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<IdentityRole<Guid>> _roleManager;
 
         public AdminSetupController(
             UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
             RoleManager<IdentityRole<Guid>> roleManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
             _roleManager = roleManager;
         }
 
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             // Kiểm tra xem đã có admin chưa
@@ -28,7 +33,7 @@ namespace WebsiteBanPhuKien.Controllers
                 return View("AdminExists");
             }
 
-            return View(new AdminSetupViewModel());
+            return View();
         }
 
         [HttpPost]
@@ -47,17 +52,16 @@ namespace WebsiteBanPhuKien.Controllers
                 return View("AdminExists");
             }
 
-            // Kiểm tra mã bảo mật
-            if (model.InputSecurityCode != model.SecurityCode)
-            {
-                ModelState.AddModelError("InputSecurityCode", "Mã bảo mật không đúng");
-                return View(model);
-            }
-
             // Tạo role Admin nếu chưa có
             if (!await _roleManager.RoleExistsAsync("Admin"))
             {
                 await _roleManager.CreateAsync(new IdentityRole<Guid>("Admin"));
+            }
+
+            // Tạo role User nếu chưa có
+            if (!await _roleManager.RoleExistsAsync("User"))
+            {
+                await _roleManager.CreateAsync(new IdentityRole<Guid>("User"));
             }
 
             // Tạo tài khoản admin
@@ -67,7 +71,7 @@ namespace WebsiteBanPhuKien.Controllers
                 Email = model.Email,
                 EmailConfirmed = true,
                 HoTen = model.HoTen,
-                Avatar = "/images/avatars/default.jpg",
+                PhoneNumber = model.PhoneNumber,
                 TrangThai = true
             };
 
@@ -75,7 +79,8 @@ namespace WebsiteBanPhuKien.Controllers
             if (result.Succeeded)
             {
                 await _userManager.AddToRoleAsync(user, "Admin");
-                return View("Success");
+                await _signInManager.SignInAsync(user, isPersistent: false);
+                return RedirectToAction("Success");
             }
 
             foreach (var error in result.Errors)
@@ -86,12 +91,12 @@ namespace WebsiteBanPhuKien.Controllers
             return View(model);
         }
 
-        public IActionResult AdminExists()
+        public IActionResult Success()
         {
             return View();
         }
 
-        public IActionResult Success()
+        public IActionResult AdminExists()
         {
             return View();
         }

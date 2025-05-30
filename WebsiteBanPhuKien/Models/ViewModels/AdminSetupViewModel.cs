@@ -13,8 +13,13 @@ namespace WebsiteBanPhuKien.Models.ViewModels
         [Display(Name = "Email")]
         public string Email { get; set; } = string.Empty;
 
+        [Required(ErrorMessage = "Vui lòng nhập số điện thoại")]
+        [Phone(ErrorMessage = "Số điện thoại không hợp lệ")]
+        [Display(Name = "Số điện thoại")]
+        public string PhoneNumber { get; set; } = string.Empty;
+
         [Required(ErrorMessage = "Vui lòng nhập mật khẩu")]
-        [StringLength(100, ErrorMessage = "Mật khẩu phải có ít nhất {2} ký tự", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "Mật khẩu phải có ít nhất {2} ký tự và không quá {1} ký tự", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Mật khẩu")]
         public string Password { get; set; } = string.Empty;
@@ -23,12 +28,5 @@ namespace WebsiteBanPhuKien.Models.ViewModels
         [Display(Name = "Xác nhận mật khẩu")]
         [Compare("Password", ErrorMessage = "Mật khẩu và xác nhận mật khẩu không khớp")]
         public string ConfirmPassword { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Vui lòng nhập mã bảo mật")]
-        [Display(Name = "Mã bảo mật")]
-        public string InputSecurityCode { get; set; } = string.Empty;
-
-        // Mã bảo mật cố định, trong thực tế nên lưu trong cấu hình hoặc biến môi trường
-        public string SecurityCode => "Admin@123";
     }
 }
