@@ -1,0 +1,211 @@
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="container mt-5">
+    <!-- Danh mục nổi bật -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="section-title">Danh Mục Nổi Bật</h2>
+        </div>
+        <div class="col-12 mt-4">
+            <div class="row">
+                <div class="col-md-3 col-6 mb-4">
+                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="1" class="text-decoration-none">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-headphones fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Tai nghe</h5>
+                                <p class="card-text small">Âm thanh sống động</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="2" class="text-decoration-none">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-mouse fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Chuột</h5>
+                                <p class="card-text small">Chính xác & nhạy bén</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="3" class="text-decoration-none">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-keyboard fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Bàn phím</h5>
+                                <p class="card-text small">Gõ êm & bền bỉ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="4" class="text-decoration-none">
+                        <div class="card text-center h-100">
+                            <div class="card-body">
+                                <i class="fas fa-volume-up fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Loa</h5>
+                                <p class="card-text small">Âm thanh vòm sống động</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sản phẩm mới -->
+    <div class="row mb-5">
+        <div class="col-12 d-flex justify-content-between align-items-center mb-4">
+            <h2 class="section-title mb-0">Sản Phẩm Mới</h2>
+            <a asp-controller="Product" asp-action="DanhSach" class="btn btn-outline-primary">Xem tất cả</a>
+        </div>
+        
+        <div class="col-12">
+            <div class="row">
+                @if (ViewBag.SanPhamMoi != null)
+                {
+                    foreach (var item in ViewBag.SanPhamMoi)
+                    {
+                        <div class="col-lg-3 col-md-4 col-6 mb-4">
+                            <div class="card h-100">
+                                <div class="position-relative">
+                                    <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" class="card-img-top" alt="@item.TenPhuKien">
+                                    <span class="badge badge-primary position-absolute top-0 end-0 m-2">Mới</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-truncate">@item.TenPhuKien</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="card-text text-danger mb-0">@item.Gia.ToString("N0") đ</p>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <p class="card-text small text-muted mt-2">@(item.LoaiPhuKien?.TenLoai ?? "Không có")</p>
+                                </div>
+                                <div class="card-footer bg-white border-top-0">
+                                    <div class="d-flex justify-content-between">
+                                        <a asp-controller="Product" asp-action="ChiTiet" asp-route-id="@item.MaPhuKien" class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-info-circle"></i> Chi tiết
+                                        </a>
+                                        <form asp-controller="Cart" asp-action="ThemVaoGio" method="post">
+                                            <input type="hidden" name="maPhuKien" value="@item.MaPhuKien" />
+                                            <input type="hidden" name="soLuong" value="1" />
+                                            <button type="submit" class="btn btn-sm btn-primary">
+                                                <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-12 text-center">
+                        <p>Không có sản phẩm mới</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner quảng cáo -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="card bg-dark text-white">
+                <img src="https://via.placeholder.com/1200x300/e60000/ffffff" class="card-img" alt="Khuyến mãi">
+                <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
+                    <h3 class="card-title">KHUYẾN MÃI ĐẶC BIỆT</h3>
+                    <p class="card-text">Giảm giá lên đến 50% cho tất cả phụ kiện công nghệ</p>
+                    <a href="#" class="btn btn-light">Xem ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tin tức mới -->
+    <div class="row mb-5">
+        <div class="col-12 d-flex justify-content-between align-items-center mb-4">
+            <h2 class="section-title mb-0">Tin Tức Mới</h2>
+            <a asp-controller="News" asp-action="DanhSach" class="btn btn-outline-primary">Xem tất cả</a>
+        </div>
+        
+        <div class="col-12">
+            <div class="row">
+                @if (ViewBag.TinTucMoi != null)
+                {
+                    foreach (var item in ViewBag.TinTucMoi)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" class="card-img-top" alt="@item.TieuDe">
+                                <div class="card-body">
+                                    <h5 class="card-title">@item.TieuDe</h5>
+                                    <p class="card-text">
+                                        @(item.NoiDung != null && item.NoiDung.Length > 100 ? item.NoiDung.Substring(0, 100) + "..." : item.NoiDung)
+                                    </p>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <small class="text-muted">
+                                            <i class="far fa-calendar-alt me-1"></i>
+                                            @item.NgayDang.ToString("dd/MM/yyyy")
+                                        </small>
+                                        <a asp-controller="News" asp-action="ChiTiet" asp-route-id="@item.MaTin" class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-arrow-right"></i> Đọc thêm
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-12 text-center">
+                        <p>Không có tin tức mới</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Thương hiệu đối tác -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="section-title">Thương Hiệu Đối Tác</h2>
+        </div>
+        <div class="col-12 mt-4">
+            <div class="row align-items-center text-center">
+                <div class="col-md-2 col-4 mb-3">
+                    <img src="https://via.placeholder.com/150x80" alt="Brand 1" class="img-fluid">
+                </div>
+                <div class="col-md-2 col-4 mb-3">
+                    <img src="https://via.placeholder.com/150x80" alt="Brand 2" class="img-fluid">
+                </div>
+                <div class="col-md-2 col-4 mb-3">
+                    <img src="https://via.placeholder.com/150x80" alt="Brand 3" class="img-fluid">
+                </div>
+                <div class="col-md-2 col-4 mb-3">
+                    <img src="https://via.placeholder.com/150x80" alt="Brand 4" class="img-fluid">
+                </div>
+                <div class="col-md-2 col-4 mb-3">
+                    <img src="https://via.placeholder.com/150x80" alt="Brand 5" class="img-fluid">
+                </div>
+                <div class="col-md-2 col-4 mb-3">
+                    <img src="https://via.placeholder.com/150x80" alt="Brand 6" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

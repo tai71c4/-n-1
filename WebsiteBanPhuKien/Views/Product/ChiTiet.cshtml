@@ -1,0 +1,94 @@
+@model WebsiteBanPhuKien.Models.ViewModels.ChiTietSanPhamViewModel
+@{
+    ViewData["Title"] = Model.SanPham.TenPhuKien;
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="@Model.SanPham.HinhAnh" class="img-fluid" alt="@Model.SanPham.TenPhuKien">
+    </div>
+    <div class="col-md-6">
+        <h2>@Model.SanPham.TenPhuKien</h2>
+        <p class="text-danger font-weight-bold h4">@Model.SanPham.Gia.ToString("N0") đ</p>
+        <p>Hãng: @Model.SanPham.HangSanXuat.TenHang</p>
+        <p>Loại: @Model.SanPham.LoaiPhuKien.TenLoai</p>
+        <p>Số lượng còn: @Model.SanPham.SoLuong</p>
+        
+        <div class="d-flex align-items-center mb-3">
+            <div class="star-rating mr-2">
+                @for (int i = 1; i <= 5; i++)
+                {
+                    <i class="fas fa-star @(i <= Model.DiemTrungBinh ? "text-warning" : "text-secondary")"></i>
+                }
+            </div>
+            <span>(@Model.TongDanhGia đánh giá)</span>
+        </div>
+        
+        @if (Model.SanPham.SoLuong > 0)
+        {
+            <form asp-controller="Cart" asp-action="ThemVaoGioHang" method="post">
+                <input type="hidden" name="maPhuKien" value="@Model.SanPham.MaPhuKien" />
+                <div class="form-group">
+                    <label>Số lượng:</label>
+                    <input type="number" name="soLuong" value="1" min="1" max="@Model.SanPham.SoLuong" class="form-control w-25" />
+                </div>
+                <button type="submit" class="btn btn-primary">Thêm vào giỏ hàng</button>
+            </form>
+        }
+        else
+        {
+            <button class="btn btn-secondary" disabled>Hết hàng</button>
+        }
+    </div>
+</div>
+
+<div class="mt-5">
+    <h3>Mô tả sản phẩm</h3>
+    <p>@Model.SanPham.MoTa</p>
+</div>
+
+<div class="mt-5">
+    <h3>Đánh giá sản phẩm</h3>
+    @if (Model.DanhGias.Any())
+    {
+        foreach (var review in Model.DanhGias)
+        {
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">@review.User.HoTen</h5>
+                    <div class="star-rating mb-2">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <i class="fas fa-star @(i <= review.SoSao ? "text-warning" : "text-secondary")"></i>
+                        }
+                    </div>
+                    <p class="card-text">@review.BinhLuan</p>
+                    <small class="text-muted">@review.NgayDanhGia.ToString("dd/MM/yyyy")</small>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Chưa có đánh giá nào cho sản phẩm này.</p>
+    }
+</div>
+
+<div class="mt-5">
+    <h3>Sản phẩm cùng loại</h3>
+    <div class="row">
+        @foreach (var item in Model.SanPhamCungLoai)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="@item.HinhAnh" class="card-img-top" alt="@item.TenPhuKien">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.TenPhuKien</h5>
+                        <p class="card-text text-danger font-weight-bold">@item.Gia.ToString("N0") đ</p>
+                        <a href="@Url.Action("ChiTiet", "Product", new { id = item.MaPhuKien })" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

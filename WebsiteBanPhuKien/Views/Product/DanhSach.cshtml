@@ -1,0 +1,63 @@
+@model IEnumerable<WebsiteBanPhuKien.Models.PhuKien>
+@{
+    ViewData["Title"] = "Danh Sách Phụ Kiện";
+}
+
+<h1>Danh Sách Phụ Kiện</h1>
+
+<form asp-action="DanhSach" method="get" class="mb-3">
+    <div class="form-group">
+        <label for="loaiId">Loại phụ kiện:</label>
+        <select name="loaiId" class="form-control">
+            <option value="">Tất cả</option>
+            @foreach (var loai in ViewBag.LoaiPhuKiens)
+            {
+                <option value="@loai.MaLoai">@loai.TenLoai</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="hangId">Hãng sản xuất:</label>
+        <select name="hangId" class="form-control">
+            <option value="">Tất cả</option>
+            @foreach (var hang in ViewBag.HangSanXuats)
+            {
+                <option value="@hang.MaHang">@hang.TenHang</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="text" name="searchString" class="form-control" placeholder="Tìm kiếm sản phẩm..." value="@ViewBag.SearchString" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lọc</button>
+</form>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@(string.IsNullOrEmpty(product.HinhAnh) ? "/img/no-image.jpg" : product.HinhAnh)" class="card-img-top" alt="@product.TenPhuKien" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.TenPhuKien</h5>
+                    <p class="card-text">@(product.MoTa?.Length > 100 ? product.MoTa.Substring(0, 100) + "..." : product.MoTa)</p>
+                    <p class="card-text"><strong>Giá:</strong> @product.Gia.ToString("N0") đ</p>
+                    <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="d-flex justify-content-center">
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("DanhSach", new { page = i, loaiId = Context.Request.Query["loaiId"], hangId = Context.Request.Query["hangId"], searchString = Context.Request.Query["searchString"] })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Website Bán Phụ Kiện</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-mobile-alt me-2"></i>PhuKien Shop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home me-1"></i> Trang chủ
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Product" ? "active" : "")" asp-area="" asp-controller="Product" asp-action="DanhSach">
+                                <i class="fas fa-list me-1"></i> Sản phẩm
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "News" ? "active" : "")" asp-area="" asp-controller="News" asp-action="DanhSach">
+                                <i class="fas fa-newspaper me-1"></i> Tin tức
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "GioiThieu" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="GioiThieu">
+                                <i class="fas fa-info-circle me-1"></i> Giới thiệu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Contact" ? "active" : "")" asp-area="" asp-controller="Contact" asp-action="FormLienHe">
+                                <i class="fas fa-envelope me-1"></i> Liên hệ
+                            </a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        @if (ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Index")
+        {
+            <div class="hero-section text-center animate-fade-in">
+                <h1>Phụ Kiện Công Nghệ Chính Hãng</h1>
+                <p class="lead">Chất lượng cao - Giá cả hợp lý - Bảo hành uy tín</p>
+                <a asp-controller="Product" asp-action="DanhSach" class="btn btn-light btn-lg mt-3">
+                    <i class="fas fa-shopping-cart me-2"></i>Mua ngay
+                </a>
+            </div>
+        }
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5><i class="fas fa-info-circle me-2"></i>Thông tin liên hệ</h5>
+                    <p>
+                        <i class="fas fa-map-marker-alt me-2"></i> Địa chỉ: Đường Nguyễn Văn Cừ, Quận Ninh KiềuKiều, TP.Cần Thơ<br />
+                        <i class="fas fa-phone me-2"></i> Điện thoại: 0915838301<br />
+                        <i class="fas fa-envelope me-2"></i> Email: PhuKienVipPro@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5><i class="fas fa-link me-2"></i>Liên kết nhanh</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/"><i class="fas fa-angle-right me-2"></i>Trang chủ</a></li>
+                        <li><a asp-controller="Product" asp-action="DanhSach"><i class="fas fa-angle-right me-2"></i>Sản phẩm</a></li>
+                        <li><a asp-controller="News" asp-action="DanhSach"><i class="fas fa-angle-right me-2"></i>Tin tức</a></li>
+                        <li><a asp-controller="Home" asp-action="GioiThieu"><i class="fas fa-angle-right me-2"></i>Giới thiệu</a></li>
+                        <li><a asp-controller="Contact" asp-action="FormLienHe"><i class="fas fa-angle-right me-2"></i>Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5><i class="fas fa-share-alt me-2"></i>Kết nối với chúng tôi</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="mt-3">
+                        <form class="d-flex">
+                            <input type="email" class="form-control me-2" placeholder="Email của bạn">
+                            <button class="btn btn-primary" type="submit">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p>&copy; @DateTime.Now.Year - Website Bán Phụ Kiện | Thiết kế bởi <span class="text-light">PhuKien Team</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

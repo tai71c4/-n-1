@@ -1,0 +1,134 @@
+@model WebsiteBanPhuKien.Models.ViewModels.GioHangViewModel
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4"><i class="fas fa-shopping-cart me-2"></i>Giỏ hàng</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (Model.Items.Any())
+    {
+        <div class="card shadow">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Đơn giá</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Items)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" 
+                                                 alt="@item.TenPhuKien" class="me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                                            <div>
+                                                <h6 class="mb-0">@item.TenPhuKien</h6>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>@item.DonGia.ToString("N0") đ</td>
+                                    <td>
+                                        <form asp-action="CapNhatSoLuong" method="post" class="d-flex align-items-center">
+                                            <input type="hidden" name="maPhuKien" value="@item.MaPhuKien" />
+                                            <div class="input-group" style="width: 120px;">
+                                                <button type="button" class="btn btn-outline-secondary btn-sm quantity-btn" data-action="decrease">
+                                                    <i class="fas fa-minus"></i>
+                                                </button>
+                                                <input type="number" name="soLuong" value="@item.SoLuong" min="1" class="form-control form-control-sm text-center quantity-input" />
+                                                <button type="button" class="btn btn-outline-secondary btn-sm quantity-btn" data-action="increase">
+                                                    <i class="fas fa-plus"></i>
+                                                </button>
+                                            </div>
+                                            <button type="submit" class="btn btn-sm btn-outline-primary ms-2">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                    <td class="fw-bold">@((item.DonGia * item.SoLuong).ToString("N0")) đ</td>
+                                    <td>
+                                        <form asp-action="XoaKhoiGio" method="post">
+                                            <input type="hidden" name="maPhuKien" value="@item.MaPhuKien" />
+                                            <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <a asp-controller="Product" asp-action="DanhSach" class="btn btn-outline-primary">
+                            <i class="fas fa-arrow-left me-2"></i>Tiếp tục mua sắm
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <h5>Tổng tiền:</h5>
+                                    <h5 class="text-danger">@Model.Items.Sum(i => i.DonGia * i.SoLuong).ToString("N0") đ</h5>
+                                </div>
+                                <div class="d-grid">
+                                    <a asp-action="ThanhToan" class="btn btn-primary">
+                                        <i class="fas fa-credit-card me-2"></i>Tiến hành thanh toán
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="text-center py-5">
+            <i class="fas fa-shopping-cart fa-4x text-muted mb-3"></i>
+            <h3>Giỏ hàng của bạn đang trống</h3>
+            <p class="text-muted">Hãy thêm sản phẩm vào giỏ hàng để tiến hành mua sắm</p>
+            <a asp-controller="Product" asp-action="DanhSach" class="btn btn-primary mt-3">
+                <i class="fas fa-shopping-bag me-2"></i>Mua sắm ngay
+            </a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Xử lý nút tăng/giảm số lượng
+            document.querySelectorAll('.quantity-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    const input = this.parentNode.querySelector('.quantity-input');
+                    const currentValue = parseInt(input.value);
+                    
+                    if (this.dataset.action === 'increase') {
+                        input.value = currentValue + 1;
+                    } else if (this.dataset.action === 'decrease' && currentValue > 1) {
+                        input.value = currentValue - 1;
+                    }
+                });
+            });
+        });
+    </script>
+}
