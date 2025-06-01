@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\img\\00833433.webp",
+      "PackagePath": "staticwebassets\\img\\00833433.webp"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\img\\00833472.webp",
+      "PackagePath": "staticwebassets\\img\\00833472.webp"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\img\\Aukey.jpg",
       "PackagePath": "staticwebassets\\img\\Aukey.jpg"
     },
@@ -413,12 +421,20 @@
       "PackagePath": "staticwebassets\\uploads\\3b4225fc-4258-49c9-8b79-e763eda76d0a_00833433.webp"
     },
     {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\uploads\\81edbbc9-4e39-4a5e-a45a-49a6cded7acb_00833472.webp",
+      "PackagePath": "staticwebassets\\uploads\\81edbbc9-4e39-4a5e-a45a-49a6cded7acb_00833472.webp"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\uploads\\b5e3b99a-4d62-4123-a1d7-e746454be9aa_00833433.webp",
       "PackagePath": "staticwebassets\\uploads\\b5e3b99a-4d62-4123-a1d7-e746454be9aa_00833433.webp"
     },
     {
       "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
       "PackagePath": "staticwebassets\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\uploads\\be327955-de41-4944-a363-d37788cbf2fc_00833472.webp",
+      "PackagePath": "staticwebassets\\uploads\\be327955-de41-4944-a363-d37788cbf2fc_00833472.webp"
     },
     {
       "Id": "C:\\Users\\Administrator\\source\\repos\\-n-1_1-6\\WebsiteBanPhuKien\\wwwroot\\uploads\\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png",
