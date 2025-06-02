@@ -1,9 +1,17 @@
 :root {
+<<<<<<< Updated upstream
     --primary-color: #e74c3c;
     --secondary-color: #c0392b;
     --accent-color: #e74c3c;
     --dark-color: #2c3e50;
     --light-color: #ecf0f1;
+=======
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --accent-color: #d4af37;
+    --dark-color: #212121;
+    --light-color: #f8f9fa;
+>>>>>>> Stashed changes
     --gray-color: #95a5a6;
     --text-color: #333;
     --white-color: #fff;
@@ -12,14 +20,25 @@
 }
 
 body {
+<<<<<<< Updated upstream
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: #f8f9fa;
+=======
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    color: var(--text-color);
+    background-color: #f8f9fa;
+    letter-spacing: 0.3px;
+>>>>>>> Stashed changes
 }
 
 /* Header & Navigation */
 .main-navbar {
+<<<<<<< Updated upstream
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+=======
+    background: linear-gradient(to right, #000000, #212121);
+>>>>>>> Stashed changes
     padding: 0.8rem 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
@@ -27,7 +46,13 @@ body {
 .navbar-brand {
     font-weight: 700;
     font-size: 1.5rem;
+<<<<<<< Updated upstream
     color: white !important;
+=======
+    color: var(--accent-color) !important;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+>>>>>>> Stashed changes
 }
 
 .nav-link {
@@ -35,10 +60,20 @@ body {
     padding: 0.5rem 1rem !important;
     transition: var(--transition);
     color: rgba(255, 255, 255, 0.85) !important;
+<<<<<<< Updated upstream
 }
 
 .nav-link:hover {
     color: white !important;
+=======
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+>>>>>>> Stashed changes
     transform: translateY(-2px);
 }
 
@@ -47,6 +82,7 @@ body {
     box-shadow: var(--shadow);
 }
 
+<<<<<<< Updated upstream
 /* Search Box */
 .search-box {
     position: relative;
@@ -67,10 +103,57 @@ body {
 .search-box .form-control:focus {
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+=======
+/* Custom Navigation Styles */
+.navbar-brand img {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    z-index: 1030;
+}
+
+/* Search Box */
+.search-box {
+    position: relative;
+    width: 240px;
+}
+
+.search-input {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid var(--accent-color);
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    padding: 0.6rem 2.5rem 0.6rem 1.2rem;
+    width: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25), 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-color: var(--accent-color);
+    color: white;
+    width: 260px;
+>>>>>>> Stashed changes
 }
 
 .btn-search {
     position: absolute;
+<<<<<<< Updated upstream
     right: 0;
     top: 0;
     border: none;
@@ -85,6 +168,49 @@ body {
     font-size: 1.2rem;
 }
 
+=======
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: var(--accent-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-search:hover {
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Cart Icon */
+.cart-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent-color), #c4a030);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.cart-icon-link i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.cart-icon-link:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #e5c158, var(--accent-color));
+}
+
+>>>>>>> Stashed changes
 .cart-badge {
     position: absolute;
     top: -8px;
@@ -104,7 +230,11 @@ body {
 /* Product Cards */
 .product-card {
     border: none;
+<<<<<<< Updated upstream
     border-radius: 10px;
+=======
+    border-radius: 0;
+>>>>>>> Stashed changes
     overflow: hidden;
     transition: var(--transition);
     height: 100%;
@@ -141,6 +271,10 @@ body {
     font-weight: 700;
     color: var(--accent-color);
     font-size: 1.2rem;
+<<<<<<< Updated upstream
+=======
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+>>>>>>> Stashed changes
 }
 
 .product-actions {
@@ -159,6 +293,7 @@ body {
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+<<<<<<< Updated upstream
 }
 
 .btn-primary:hover {
@@ -184,6 +319,51 @@ body {
 .btn-danger:hover {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
+=======
+    color: var(--white-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.btn-success {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.btn-success:hover {
+    background-color: #c4a030;
+    border-color: #c4a030;
+    color: var(--primary-color);
+}
+
+.btn-danger {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn-danger:hover {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.btn-accent {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.btn-accent:hover {
+    background-color: #c4a030;
+    border-color: #c4a030;
+    color: var(--primary-color);
+>>>>>>> Stashed changes
 }
 
 .btn-outline-primary {
@@ -277,6 +457,7 @@ body {
 
 /* Footer */
 footer {
+<<<<<<< Updated upstream
     background-color: var(--dark-color);
     color: var(--light-color);
     padding: 3rem 0;
@@ -287,6 +468,22 @@ footer h5 {
     color: white;
     font-weight: 700;
     margin-bottom: 1.5rem;
+=======
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 3rem 0;
+    margin-top: 3rem;
+    border-top: 3px solid var(--accent-color);
+}
+
+footer h5 {
+    color: var(--accent-color);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+>>>>>>> Stashed changes
 }
 
 footer ul {
@@ -507,6 +704,12 @@ footer i {
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #eee;
+<<<<<<< Updated upstream
+=======
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+>>>>>>> Stashed changes
 }
 
 .section-header:after {
@@ -516,13 +719,21 @@ footer i {
     left: 0;
     width: 80px;
     height: 2px;
+<<<<<<< Updated upstream
     background-color: var(--primary-color);
+=======
+    background-color: var(--accent-color);
+>>>>>>> Stashed changes
 }
 
 /* Improved Cards */
 .card {
     border: none;
+<<<<<<< Updated upstream
     border-radius: 10px;
+=======
+    border-radius: 0;
+>>>>>>> Stashed changes
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
@@ -530,6 +741,10 @@ footer i {
 
 .card:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+<<<<<<< Updated upstream
+=======
+    border-bottom: 2px solid var(--accent-color);
+>>>>>>> Stashed changes
 }
 
 .card-header {
@@ -578,6 +793,7 @@ footer i {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+<<<<<<< Updated upstream
     background-color: rgba(231, 76, 60, 0.1);
     color: var(--primary-color);
     margin-bottom: 0.75rem;
@@ -587,6 +803,18 @@ footer i {
 .category-card:hover .category-icon {
     background-color: var(--primary-color);
     color: white;
+=======
+    background-color: rgba(212, 175, 55, 0.1);
+    color: var(--accent-color);
+    margin-bottom: 0.75rem;
+    transition: var(--transition);
+    border: 1px solid var(--accent-color);
+}
+
+.category-card:hover .category-icon {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+>>>>>>> Stashed changes
     transform: scale(1.1);
 }
 
@@ -598,4 +826,71 @@ footer i {
 .list-group-item i {
     color: var(--primary-color);
     margin-right: 8px;
+<<<<<<< Updated upstream
+=======
+}
+/* Hero Section */
+.hero-section {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5rem 0;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--accent-color);
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+/* Luxury Elements */
+.luxury-divider {
+    height: 2px;
+    width: 60px;
+    background-color: var(--accent-color);
+    margin: 2rem auto;
+}
+
+.text-accent {
+    color: var(--accent-color) !important;
+}
+
+.border-accent {
+    border-color: var(--accent-color) !important;
+}
+
+/* Product Badge */
+.product-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+>>>>>>> Stashed changes
 }

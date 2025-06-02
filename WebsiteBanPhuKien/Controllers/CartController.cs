@@ -211,6 +211,15 @@ namespace WebsiteBanPhuKien.Controllers
                     }
                 }
 
+<<<<<<< Updated upstream
+=======
+                // Lưu thông tin giỏ hàng vào session để sử dụng ở trang thanh toán
+                if (gioHangItems.Any())
+                {
+                    HttpContext.Session.SetString("GioHang", System.Text.Json.JsonSerializer.Serialize(gioHangItems));
+                }
+
+>>>>>>> Stashed changes
                 return View(gioHangItems);
             }
             catch (Exception ex)

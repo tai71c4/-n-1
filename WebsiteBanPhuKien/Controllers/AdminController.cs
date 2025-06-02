@@ -348,25 +348,59 @@ namespace WebsiteBanPhuKien.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> XoaSanPham(int id)
         {
-            var product = await _context.PhuKiens.FindAsync(id);
-            if (product == null)
+            try
             {
-                return NotFound();
-            }
-
-            // Xóa hình ảnh nếu có
-            if (!string.IsNullOrEmpty(product.HinhAnh) && product.HinhAnh.StartsWith("/uploads/"))
-            {
-                var imagePath = Path.Combine(_environment.WebRootPath, product.HinhAnh.TrimStart('/'));
-                if (System.IO.File.Exists(imagePath))
+                // Kiểm tra xem sản phẩm có liên kết với ChiTietDonHang không
+                var hasOrders = await _context.ChiTietDonHangs.AnyAsync(c => c.MaPhuKien == id);
+                if (hasOrders)
                 {
-                    System.IO.File.Delete(imagePath);
+                    TempData["ErrorMessage"] = "Không thể xóa sản phẩm này vì đã có trong đơn hàng.";
+                    return RedirectToAction(nameof(QuanLySanPham));
                 }
-            }
 
-            _context.PhuKiens.Remove(product);
-            await _context.SaveChangesAsync();
-            TempData["SuccessMessage"] = "Xóa sản phẩm thành công.";
+                // Xóa các mục giỏ hàng liên quan
+                var cartItems = await _context.GioHangs.Where(g => g.MaPhuKien == id).ToListAsync();
+                if (cartItems.Any())
+                {
+                    _context.GioHangs.RemoveRange(cartItems);
+                    await _context.SaveChangesAsync();
+                }
+
+                // Xóa các đánh giá liên quan
+                var reviews = await _context.DanhGias.Where(d => d.MaPhuKien == id).ToListAsync();
+                if (reviews.Any())
+                {
+                    _context.DanhGias.RemoveRange(reviews);
+                    await _context.SaveChangesAsync();
+                }
+
+                // Lấy thông tin hình ảnh trước khi xóa sản phẩm
+                var imagePath = await _context.PhuKiens
+                    .Where(p => p.MaPhuKien == id)
+                    .Select(p => p.HinhAnh)
+                    .FirstOrDefaultAsync();
+
+                // Xóa sản phẩm bằng SQL trực tiếp để tránh lỗi
+                await _context.Database.ExecuteSqlRawAsync(
+                    "DELETE FROM PhuKien WHERE MaPhuKien = {0}", id);
+
+                // Xóa hình ảnh nếu có
+                if (!string.IsNullOrEmpty(imagePath) && imagePath.StartsWith("/uploads/"))
+                {
+                    var fullPath = Path.Combine(_environment.WebRootPath, imagePath.TrimStart('/'));
+                    if (System.IO.File.Exists(fullPath))
+                    {
+                        System.IO.File.Delete(fullPath);
+                    }
+                }
+
+                TempData["SuccessMessage"] = "Xóa sản phẩm thành công.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = $"Lỗi khi xóa sản phẩm: {ex.Message}";
+            }
+            
             return RedirectToAction(nameof(QuanLySanPham));
         }
 
