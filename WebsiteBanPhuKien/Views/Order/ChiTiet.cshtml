@@ -1,12 +1,12 @@
-@model WebsiteBanPhuKien.Models.ViewModels.DonHangViewModel
+@model WebsiteBanPhuKien.Models.DonHang
 @{
     ViewData["Title"] = "Chi tiết đơn hàng";
 }
 
-<h1>Chi tiết đơn hàng #@Model.DonHang.MaDon</h1>
-<p><strong>Ngày đặt:</strong> @Model.DonHang.NgayDat.ToString("dd/MM/yyyy")</p>
-<p><strong>Tổng tiền:</strong> @Model.DonHang.TongTien.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</p>
-<p><strong>Trạng thái:</strong> @Model.DonHang.TrangThai</p>
+<h1>Chi tiết đơn hàng #@Model.MaDon</h1>
+<p><strong>Ngày đặt:</strong> @Model.NgayDat.ToString("dd/MM/yyyy")</p>
+<p><strong>Tổng tiền:</strong> @Model.TongTien.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</p>
+<p><strong>Trạng thái:</strong> @Model.TrangThai</p>
 
 <h2>Chi tiết</h2>
 <table class="table">

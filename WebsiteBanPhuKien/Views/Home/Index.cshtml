@@ -2,210 +2,319 @@
     ViewData["Title"] = "Trang chủ";
 }
 
-<div class="container mt-5">
-    <!-- Danh mục nổi bật -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <h2 class="section-title">Danh Mục Nổi Bật</h2>
+<div class="container py-4">
+    <!-- Banner -->
+    <div id="mainCarousel" class="carousel slide mb-5" data-bs-ride="carousel" style="max-height: 300px; overflow: hidden;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="col-12 mt-4">
-            <div class="row">
-                <div class="col-md-3 col-6 mb-4">
-                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="1" class="text-decoration-none">
-                        <div class="card text-center h-100">
-                            <div class="card-body">
-                                <i class="fas fa-headphones fa-3x text-primary mb-3"></i>
-                                <h5 class="card-title">Tai nghe</h5>
-                                <p class="card-text small">Âm thanh sống động</p>
-                            </div>
-                        </div>
-                    </a>
+        <div class="carousel-inner rounded shadow">
+            <div class="carousel-item active">
+                <img src="/img/banners/banner.jpg" class="d-block w-100" alt="Banner 1" style="object-fit: cover; height: 300px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Phụ kiện chính hãng</h5>
+                    <p>Chất lượng cao, giá cả hợp lý</p>
                 </div>
-                <div class="col-md-3 col-6 mb-4">
-                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="2" class="text-decoration-none">
-                        <div class="card text-center h-100">
-                            <div class="card-body">
-                                <i class="fas fa-mouse fa-3x text-primary mb-3"></i>
-                                <h5 class="card-title">Chuột</h5>
-                                <p class="card-text small">Chính xác & nhạy bén</p>
-                            </div>
-                        </div>
-                    </a>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/banners/banner1.jpg" class="d-block w-100" alt="Banner 2" style="object-fit: cover; height: 300px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Khuyến mãi hấp dẫn</h5>
+                    <p>Giảm giá lên đến 50%</p>
                 </div>
-                <div class="col-md-3 col-6 mb-4">
-                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="3" class="text-decoration-none">
-                        <div class="card text-center h-100">
-                            <div class="card-body">
-                                <i class="fas fa-keyboard fa-3x text-primary mb-3"></i>
-                                <h5 class="card-title">Bàn phím</h5>
-                                <p class="card-text small">Gõ êm & bền bỉ</p>
-                            </div>
-                        </div>
-                    </a>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/banners/banner2.jpg" class="d-block w-100" alt="Banner 3" style="object-fit: cover; height: 300px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Giao hàng miễn phí</h5>
+                    <p>Cho đơn hàng từ 300.000đ</p>
                 </div>
-                <div class="col-md-3 col-6 mb-4">
-                    <a asp-controller="Product" asp-action="DanhSach" asp-route-loaiId="4" class="text-decoration-none">
-                        <div class="card text-center h-100">
-                            <div class="card-body">
-                                <i class="fas fa-volume-up fa-3x text-primary mb-3"></i>
-                                <h5 class="card-title">Loa</h5>
-                                <p class="card-text small">Âm thanh vòm sống động</p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Danh mục nổi bật -->
+    <div class="mb-5">
+        <h2 class="h3 mb-4 section-header">Danh mục nổi bật</h2>
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="row row-cols-2 row-cols-md-4 g-3">
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 1 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-mobile-alt fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Ốp lưng điện thoại</h6>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 2 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-shield-alt fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Kính cường lực</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 3 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-plug fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Cáp sạc & củ sạc</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 4 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-battery-full fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Pin dự phòng</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 5 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-headphones fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Tai nghe & âm thanh</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 6 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-exchange-alt fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Thiết bị chuyển đổi</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("TheoLoai", "Product", new { id = 7 })" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-tools fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Phụ kiện tiện ích</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="@Url.Action("DanhSach", "Product")" class="text-decoration-none">
+                            <div class="card h-100 category-card">
+                                <div class="card-body text-center">
+                                    <div class="category-icon">
+                                        <i class="fas fa-th fa-2x"></i>
+                                    </div>
+                                    <h6 class="card-title">Xem tất cả</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Sản phẩm mới -->
-    <div class="row mb-5">
-        <div class="col-12 d-flex justify-content-between align-items-center mb-4">
-            <h2 class="section-title mb-0">Sản Phẩm Mới</h2>
-            <a asp-controller="Product" asp-action="DanhSach" class="btn btn-outline-primary">Xem tất cả</a>
-        </div>
+    <div class="mb-5">
+        <h2 class="h3 mb-4 section-header">Sản phẩm mới</h2>
         
-        <div class="col-12">
-            <div class="row">
-                @if (ViewBag.SanPhamMoi != null)
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            @if (ViewBag.SanPhamMoi != null)
+            {
+                foreach (var product in ViewBag.SanPhamMoi)
                 {
-                    foreach (var item in ViewBag.SanPhamMoi)
-                    {
-                        <div class="col-lg-3 col-md-4 col-6 mb-4">
-                            <div class="card h-100">
-                                <div class="position-relative">
-                                    <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" class="card-img-top" alt="@item.TenPhuKien">
-                                    <span class="badge badge-primary position-absolute top-0 end-0 m-2">Mới</span>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-truncate">@item.TenPhuKien</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="card-text text-danger mb-0">@item.Gia.ToString("N0") đ</p>
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt"></i>
-                                        </div>
+                    <div class="col">
+                        <div class="card h-100 product-card">
+                            <div class="position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-2">Mới</span>
+                                <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="product-link">
+                                    <img src="@(string.IsNullOrEmpty(product.HinhAnh) ? "/img/no-image.jpg" : product.HinhAnh)" 
+                                         class="card-img-top product-img" alt="@product.TenPhuKien" />
+                                </a>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <a href="@Url.Action("ChiTiet", "Product", new { id = product.MaPhuKien })" class="text-decoration-none text-dark">
+                                    <h5 class="card-title product-title">@product.TenPhuKien</h5>
+                                </a>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <span class="product-price">@product.Gia.ToString("N0") đ</span>
+                                        @if (product.SoLuong <= 0)
+                                        {
+                                            <span class="badge bg-danger">Hết hàng</span>
+                                        }
+                                        else if (product.SoLuong <= 5)
+                                        {
+                                            <span class="badge bg-warning text-dark">Còn @product.SoLuong</span>
+                                        }
                                     </div>
-                                    <p class="card-text small text-muted mt-2">@(item.LoaiPhuKien?.TenLoai ?? "Không có")</p>
-                                </div>
-                                <div class="card-footer bg-white border-top-0">
-                                    <div class="d-flex justify-content-between">
-                                        <a asp-controller="Product" asp-action="ChiTiet" asp-route-id="@item.MaPhuKien" class="btn btn-sm btn-outline-primary">
-                                            <i class="fas fa-info-circle"></i> Chi tiết
-                                        </a>
-                                        <form asp-controller="Cart" asp-action="ThemVaoGio" method="post">
-                                            <input type="hidden" name="maPhuKien" value="@item.MaPhuKien" />
-                                            <input type="hidden" name="soLuong" value="1" />
-                                            <button type="submit" class="btn btn-sm btn-primary">
-                                                <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
+                                    <div class="d-grid">
+                                        @if (product.SoLuong > 0)
+                                        {
+                                            <a href="javascript:void(0)" onclick="themVaoGioHang(@product.MaPhuKien, 1)" class="btn btn-primary w-100">
+                                                <i class="fas fa-cart-plus me-2"></i>Thêm vào giỏ
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <button class="btn btn-secondary w-100" disabled>
+                                                <i class="fas fa-times-circle me-2"></i>Hết hàng
                                             </button>
-                                        </form>
+                                        }
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    }
-                }
-                else
-                {
-                    <div class="col-12 text-center">
-                        <p>Không có sản phẩm mới</p>
                     </div>
                 }
-            </div>
-        </div>
-    </div>
-
-    <!-- Banner quảng cáo -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <div class="card bg-dark text-white">
-                <img src="https://via.placeholder.com/1200x300/e60000/ffffff" class="card-img" alt="Khuyến mãi">
-                <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
-                    <h3 class="card-title">KHUYẾN MÃI ĐẶC BIỆT</h3>
-                    <p class="card-text">Giảm giá lên đến 50% cho tất cả phụ kiện công nghệ</p>
-                    <a href="#" class="btn btn-light">Xem ngay</a>
-                </div>
-            </div>
+            }
         </div>
     </div>
 
     <!-- Tin tức mới -->
-    <div class="row mb-5">
-        <div class="col-12 d-flex justify-content-between align-items-center mb-4">
-            <h2 class="section-title mb-0">Tin Tức Mới</h2>
-            <a asp-controller="News" asp-action="DanhSach" class="btn btn-outline-primary">Xem tất cả</a>
-        </div>
+    <div class="mb-5">
+        <h2 class="h3 mb-4 section-header">Tin tức mới</h2>
         
-        <div class="col-12">
-            <div class="row">
-                @if (ViewBag.TinTucMoi != null)
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @if (ViewBag.TinTucMoi != null)
+            {
+                foreach (var tinTuc in ViewBag.TinTucMoi)
                 {
-                    foreach (var item in ViewBag.TinTucMoi)
-                    {
-                        <div class="col-md-4 mb-4">
-                            <div class="card h-100">
-                                <img src="@(string.IsNullOrEmpty(item.HinhAnh) ? "/img/no-image.jpg" : item.HinhAnh)" class="card-img-top" alt="@item.TieuDe">
-                                <div class="card-body">
-                                    <h5 class="card-title">@item.TieuDe</h5>
-                                    <p class="card-text">
-                                        @(item.NoiDung != null && item.NoiDung.Length > 100 ? item.NoiDung.Substring(0, 100) + "..." : item.NoiDung)
-                                    </p>
-                                </div>
-                                <div class="card-footer bg-white">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <small class="text-muted">
-                                            <i class="far fa-calendar-alt me-1"></i>
-                                            @item.NgayDang.ToString("dd/MM/yyyy")
-                                        </small>
-                                        <a asp-controller="News" asp-action="ChiTiet" asp-route-id="@item.MaTin" class="btn btn-sm btn-outline-primary">
-                                            <i class="fas fa-arrow-right"></i> Đọc thêm
-                                        </a>
-                                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="position-relative">
+                                <img src="@(string.IsNullOrEmpty(tinTuc.HinhAnh) ? "/img/no-image.jpg" : tinTuc.HinhAnh)" 
+                                     class="card-img-top" alt="@tinTuc.TieuDe" style="height: 200px; object-fit: cover;">
+                                <div class="position-absolute bottom-0 start-0 bg-primary text-white px-3 py-2">
+                                    @tinTuc.NgayDang.ToString("dd/MM/yyyy")
                                 </div>
                             </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@tinTuc.TieuDe</h5>
+                                <p class="card-text text-muted">
+                                    @(tinTuc.NoiDung?.Length > 100 ? tinTuc.NoiDung.Substring(0, 100) + "..." : tinTuc.NoiDung)
+                                </p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Đọc tiếp</a>
+                            </div>
                         </div>
-                    }
-                }
-                else
-                {
-                    <div class="col-12 text-center">
-                        <p>Không có tin tức mới</p>
                     </div>
                 }
-            </div>
+            }
         </div>
     </div>
 
-    <!-- Thương hiệu đối tác -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <h2 class="section-title">Thương Hiệu Đối Tác</h2>
-        </div>
-        <div class="col-12 mt-4">
-            <div class="row align-items-center text-center">
-                <div class="col-md-2 col-4 mb-3">
-                    <img src="https://via.placeholder.com/150x80" alt="Brand 1" class="img-fluid">
+    <!-- Đối tác -->
+    <div>
+        <h2 class="h3 mb-4 section-header">Đối tác của chúng tôi</h2>
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <img src="/img/partner1.png" alt="Partner 1" class="img-fluid" style="max-height: 60px;">
+                    </div>
                 </div>
-                <div class="col-md-2 col-4 mb-3">
-                    <img src="https://via.placeholder.com/150x80" alt="Brand 2" class="img-fluid">
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <img src="/img/partner2.png" alt="Partner 2" class="img-fluid" style="max-height: 60px;">
+                    </div>
                 </div>
-                <div class="col-md-2 col-4 mb-3">
-                    <img src="https://via.placeholder.com/150x80" alt="Brand 3" class="img-fluid">
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <img src="/img/partner3.png" alt="Partner 3" class="img-fluid" style="max-height: 60px;">
+                    </div>
                 </div>
-                <div class="col-md-2 col-4 mb-3">
-                    <img src="https://via.placeholder.com/150x80" alt="Brand 4" class="img-fluid">
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <img src="/img/partner4.png" alt="Partner 4" class="img-fluid" style="max-height: 60px;">
+                    </div>
                 </div>
-                <div class="col-md-2 col-4 mb-3">
-                    <img src="https://via.placeholder.com/150x80" alt="Brand 5" class="img-fluid">
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <img src="/img/partner5.png" alt="Partner 5" class="img-fluid" style="max-height: 60px;">
+                    </div>
                 </div>
-                <div class="col-md-2 col-4 mb-3">
-                    <img src="https://via.placeholder.com/150x80" alt="Brand 6" class="img-fluid">
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <img src="/img/partner6.png" alt="Partner 6" class="img-fluid" style="max-height: 60px;">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        function themVaoGioHang(maPhuKien, soLuong) {
+            $.ajax({
+                url: '/Cart/ThemVaoGioHang',
+                type: 'POST',
+                data: {
+                    maPhuKien: maPhuKien,
+                    soLuong: soLuong,
+                    __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                },
+                success: function(result) {
+                    // Hiển thị thông báo thành công
+                    alert('Đã thêm sản phẩm vào giỏ hàng');
+                    // Tải lại trang sau 1 giây
+                    setTimeout(function() {
+                        location.reload();
+                    }, 1000);
+                },
+                error: function(error) {
+                    alert('Có lỗi xảy ra khi thêm sản phẩm vào giỏ hàng');
+                }
+            });
+        }
+    </script>
+}
+
+@Html.AntiForgeryToken()

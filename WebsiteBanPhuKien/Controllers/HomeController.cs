@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Diagnostics;
 using WebsiteBanPhuKien.Models;
 
@@ -22,10 +23,25 @@ namespace WebsiteBanPhuKien.Controllers
             {
                 // Lấy sản phẩm mới
                 var sanPhamMoi = await _context.PhuKiens
-                    .Include(p => p.LoaiPhuKien)
-                    .OrderByDescending(p => p.CreatedAt)
-                    .Take(8)
+                    .FromSqlRaw(@"
+                        SELECT p.MaPhuKien, p.TenPhuKien, p.Gia, 
+                               ISNULL(p.MoTa, '') as MoTa, 
+                               ISNULL(p.HinhAnh, '') as HinhAnh, 
+                               p.SoLuong, p.MaLoai, p.MaHang, 
+                               p.CreatedAt, p.UpdatedAt
+                        FROM PhuKien p
+                        ORDER BY p.CreatedAt DESC
+                        OFFSET 0 ROWS FETCH NEXT 8 ROWS ONLY")
                     .ToListAsync();
+
+                // Tải thông tin loại và hãng riêng biệt
+                foreach (var item in sanPhamMoi)
+                {
+                    var loai = await _context.LoaiPhuKiens.FindAsync(item.MaLoai);
+                    var hang = await _context.HangSanXuats.FindAsync(item.MaHang);
+                    if (loai != null) item.LoaiPhuKien = loai;
+                    if (hang != null) item.HangSanXuat = hang;
+                }
 
                 // Lấy tin tức mới
                 var tinTucMoi = await _context.TinTucs
@@ -35,6 +51,18 @@ namespace WebsiteBanPhuKien.Controllers
 
                 ViewBag.SanPhamMoi = sanPhamMoi;
                 ViewBag.TinTucMoi = tinTucMoi;
+
+                // Danh mục nổi bật
+                ViewBag.DanhMucNoiBat = new List<string>
+                {
+                    "Ốp lưng điện thoại",
+                    "Kính cường lực",
+                    "Cáp sạc & củ sạc",
+                    "Pin dự phòng",
+                    "Tai nghe & âm thanh",
+                    "Thiết bị chuyển đổi",
+                    "Phụ kiện tiện ích"
+                };
             }
             catch (Exception ex)
             {
@@ -42,6 +70,16 @@ namespace WebsiteBanPhuKien.Controllers
                 // Không làm gì, để ViewBag là null và view sẽ xử lý
             }
 
+            return View();
+        }
+
+        public IActionResult GioiThieu()
+        {
+            return View();
+        }
+
+        public IActionResult LienHe()
+        {
             return View();
         }
 

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebsiteBanPhuKien.bundle.scp.css"
     },
     {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,60 +17,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Aukey.jpg",
-      "PackagePath": "staticwebassets\\img\\Aukey.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Baseus.jpg",
-      "PackagePath": "staticwebassets\\img\\Baseus.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Belkin.jpg",
-      "PackagePath": "staticwebassets\\img\\Belkin.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\JBL.jpg",
-      "PackagePath": "staticwebassets\\img\\JBL.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Nillkin.jpg",
-      "PackagePath": "staticwebassets\\img\\Nillkin.jpg"
-    },
-    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\OpLungdeo13.jpg",
       "PackagePath": "staticwebassets\\img\\OpLungdeo13.jpg"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Ringke.jpg",
-      "PackagePath": "staticwebassets\\img\\Ringke.jpg"
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\banners\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner.jpg"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Spigen.jpg",
-      "PackagePath": "staticwebassets\\img\\Spigen.jpg"
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\banners\\banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner1.jpg"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\Tudia.jpg",
-      "PackagePath": "staticwebassets\\img\\Tudia.jpg"
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\banners\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\banner2.jpg"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\UGreen.jpg",
-      "PackagePath": "staticwebassets\\img\\UGreen.jpg"
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-logo.png",
+      "PackagePath": "staticwebassets\\img\\momo-logo.png"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\apple.png",
-      "PackagePath": "staticwebassets\\img\\apple.png"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\findx5.jpg",
-      "PackagePath": "staticwebassets\\img\\findx5.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\iFan.jpg",
-      "PackagePath": "staticwebassets\\img\\iFan.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\logitech.jpg",
-      "PackagePath": "staticwebassets\\img\\logitech.jpg"
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-qr.png",
+      "PackagePath": "staticwebassets\\img\\momo-qr.png"
     },
     {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungdeo14pro.png",
@@ -105,10 +77,6 @@
       "PackagePath": "staticwebassets\\img\\oplungtrong54.jpg"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oppo.png",
-      "PackagePath": "staticwebassets\\img\\oppo.png"
-    },
-    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oppoa78.jpg",
       "PackagePath": "staticwebassets\\img\\oppoa78.jpg"
     },
@@ -117,16 +85,84 @@
       "PackagePath": "staticwebassets\\img\\oppoa96.jpg"
     },
     {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Aukey.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Aukey.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Baseus.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Baseus.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Belkin.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Belkin.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\JBL.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\JBL.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Nillkin.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Nillkin.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Ringke.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Ringke.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Spigen.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Spigen.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Tudia.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\Tudia.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\UGreen.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\UGreen.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\apple.png",
+      "PackagePath": "staticwebassets\\img\\partners\\apple.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\findx5.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\findx5.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\iFan.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\iFan.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\logitech.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\logitech.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\oppo.png",
+      "PackagePath": "staticwebassets\\img\\partners\\oppo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\realme.png",
+      "PackagePath": "staticwebassets\\img\\partners\\realme.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\rezer.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\rezer.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\samsung.png",
+      "PackagePath": "staticwebassets\\img\\partners\\samsung.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\sony.png",
+      "PackagePath": "staticwebassets\\img\\partners\\sony.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\vivo.png",
+      "PackagePath": "staticwebassets\\img\\partners\\vivo.png"
+    },
+    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\pocof5.webp",
       "PackagePath": "staticwebassets\\img\\pocof5.webp"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\pocox5.jpg",
-      "PackagePath": "staticwebassets\\img\\pocox5.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\realme.png",
-      "PackagePath": "staticwebassets\\img\\realme.png"
     },
     {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\redmi10.jpg",
@@ -145,24 +181,16 @@
       "PackagePath": "staticwebassets\\img\\reno8.jpg"
     },
     {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\rezer.jpg",
-      "PackagePath": "staticwebassets\\img\\rezer.jpg"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\samsung.png",
-      "PackagePath": "staticwebassets\\img\\samsung.png"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\sony.png",
-      "PackagePath": "staticwebassets\\img\\sony.png"
-    },
-    {
-      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\vivo.png",
-      "PackagePath": "staticwebassets\\img\\vivo.png"
-    },
-    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\xiaomi14.jpg",
       "PackagePath": "staticwebassets\\img\\xiaomi14.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\zalopay-logo.png",
+      "PackagePath": "staticwebassets\\img\\zalopay-logo.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\zalopay-qr.png",
+      "PackagePath": "staticwebassets\\img\\zalopay-qr.png"
     },
     {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\js\\site.js",
@@ -401,6 +429,18 @@
       "PackagePath": "staticwebassets\\uploads\\0018bc81-44c9-4698-9d7b-d8e9288b0abe_oplungdeo15.png"
     },
     {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg",
+      "PackagePath": "staticwebassets\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp",
+      "PackagePath": "staticwebassets\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp"
+    },
+    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png",
       "PackagePath": "staticwebassets\\uploads\\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png"
     },
@@ -409,8 +449,16 @@
       "PackagePath": "staticwebassets\\uploads\\363fd31a-8884-4c47-9139-dfbf6d2d05e0_oplungdeo15.png"
     },
     {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\7e4c44db-541a-42ea-96ad-af3419f8fc61_OpLungdeo13.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7e4c44db-541a-42ea-96ad-af3419f8fc61_OpLungdeo13.jpg"
+    },
+    {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
       "PackagePath": "staticwebassets\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png"
+    },
+    {
+      "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg"
     },
     {
       "Id": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png",

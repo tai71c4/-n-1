@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebsiteBanPhuKien.Models
 {
+    [Table("DonHang")]
     public class DonHang
     {
         [Key]
@@ -11,22 +12,25 @@ namespace WebsiteBanPhuKien.Models
         [Required]
         public Guid UserId { get; set; }
 
-        public DateTime NgayDat { get; set; } = DateTime.Now;
+        [Required]
+        public DateTime NgayDat { get; set; }
+
         public DateTime? NgayGiao { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string TrangThai { get; set; } = string.Empty;
 
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal TongTien { get; set; }
 
-        public bool ThanhToan { get; set; } = false;
-
         [Required]
-        [StringLength(50)]
-        public string TrangThai { get; set; } = "Chờ xác nhận";
+        public bool ThanhToan { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime? UpdatedAt { get; set; }
         public Guid? CreatedBy { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public Guid? UpdatedBy { get; set; }
 
         // Navigation properties

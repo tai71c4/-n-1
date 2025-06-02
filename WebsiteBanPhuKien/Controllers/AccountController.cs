@@ -44,7 +44,16 @@ namespace WebsiteBanPhuKien.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Đăng nhập không thành công.");
+                    // Kiểm tra xem tài khoản có bị khóa không
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+                    if (user != null && !user.TrangThai)
+                    {
+                        model.ErrorMessage = "Tài khoản của bạn đã bị khóa. Vui lòng liên hệ quản trị viên.";
+                    }
+                    else
+                    {
+                        model.ErrorMessage = "Email hoặc mật khẩu không chính xác.";
+                    }
                     return View(model);
                 }
             }

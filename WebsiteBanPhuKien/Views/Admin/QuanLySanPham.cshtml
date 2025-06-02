@@ -319,7 +319,7 @@
                 
                 // Gọi API để lấy thông tin sản phẩm
                 $.ajax({
-                    url: '/Admin/GetSanPham/' + id,
+                    url: '/Admin/GetSanPham?id=' + id,
                     type: 'GET',
                     success: function(data) {
                         $('#editMaPhuKien').val(data.maPhuKien);

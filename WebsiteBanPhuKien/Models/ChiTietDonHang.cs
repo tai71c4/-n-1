@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebsiteBanPhuKien.Models
 {
+    [Table("ChiTietDonHang")]
     public class ChiTietDonHang
     {
         [Key]

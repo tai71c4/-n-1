@@ -98,11 +98,41 @@ namespace WebsiteBanPhuKien.Controllers
             
             try
             {
-                // Thử lấy dữ liệu không có Include để tránh lỗi
-                products = await _context.PhuKiens.ToListAsync();
+                // Sử dụng SQL thuần để tránh lỗi SqlNullValueException
+                string sql = @"
+                    SELECT p.MaPhuKien, p.TenPhuKien, p.Gia, 
+                           ISNULL(p.MoTa, '') as MoTa, 
+                           ISNULL(p.HinhAnh, '') as HinhAnh, 
+                           p.SoLuong, p.MaLoai, p.MaHang, 
+                           p.CreatedAt, p.UpdatedAt
+                    FROM PhuKien p";
+                
+                // Kiểm tra xem có sản phẩm nào trong cơ sở dữ liệu không
+                var productCount = await _context.PhuKiens.CountAsync();
+                Console.WriteLine($"Số lượng sản phẩm trong cơ sở dữ liệu: {productCount}");
+                
+                // Thử lấy dữ liệu sử dụng SQL thuần để tránh lỗi
+                products = await _context.PhuKiens.FromSqlRaw(sql).ToListAsync();
+                Console.WriteLine($"Đã lấy được {products.Count} sản phẩm từ cơ sở dữ liệu");
+                
+                // Tải thông tin loại và hãng riêng biệt
+                foreach (var item in products)
+                {
+                    var loai = await _context.LoaiPhuKiens.FindAsync(item.MaLoai);
+                    var hang = await _context.HangSanXuats.FindAsync(item.MaHang);
+                    if (loai != null) item.LoaiPhuKien = loai;
+                    if (hang != null) item.HangSanXuat = hang;
+                    
+                    // Đảm bảo các thuộc tính string không null
+                    item.TenPhuKien ??= string.Empty;
+                    item.MoTa ??= string.Empty;
+                    item.HinhAnh ??= string.Empty;
+                }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine($"Lỗi khi lấy danh sách sản phẩm: {ex.Message}");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
                 // Nếu có lỗi, trả về danh sách rỗng
             }
 
@@ -142,12 +172,38 @@ namespace WebsiteBanPhuKien.Controllers
         [HttpGet]
         public async Task<IActionResult> GetSanPham(int id)
         {
-            var product = await _context.PhuKiens.FindAsync(id);
-            if (product == null)
+            try
             {
-                return NotFound();
+                // Sử dụng SQL thuần để tránh lỗi SqlNullValueException
+                string sql = @"
+                    SELECT p.MaPhuKien, p.TenPhuKien, p.Gia, 
+                           ISNULL(p.MoTa, '') as MoTa, 
+                           ISNULL(p.HinhAnh, '') as HinhAnh, 
+                           p.SoLuong, p.MaLoai, p.MaHang, 
+                           p.CreatedAt, p.UpdatedAt
+                    FROM PhuKien p
+                    WHERE p.MaPhuKien = {0}";
+                
+                var product = await _context.PhuKiens
+                    .FromSqlRaw(sql, id)
+                    .FirstOrDefaultAsync();
+                
+                if (product == null)
+                {
+                    return NotFound();
+                }
+                
+                // Đảm bảo các thuộc tính string không null
+                product.TenPhuKien ??= string.Empty;
+                product.MoTa ??= string.Empty;
+                product.HinhAnh ??= string.Empty;
+                
+                return Json(product);
             }
-            return Json(product);
+            catch (Exception ex)
+            {
+                return Json(new { error = true, message = ex.Message });
+            }
         }
 
         [HttpPost]
