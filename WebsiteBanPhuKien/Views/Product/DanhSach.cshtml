@@ -37,7 +37,8 @@
     {
         <div class="col-md-4">
             <div class="card mb-4">
-                <img src="@(string.IsNullOrEmpty(product.HinhAnh) ? "/img/no-image.jpg" : product.HinhAnh)" class="card-img-top" alt="@product.TenPhuKien" />
+                <img src="@(string.IsNullOrEmpty(product.HinhAnh) ? "/img/no-image.jpg" : product.HinhAnh)" class="card-img-top product-thumbnail" alt="@product.TenPhuKien" />
+
                 <div class="card-body">
                     <h5 class="card-title">@product.TenPhuKien</h5>
                     <p class="card-text">@(product.MoTa?.Length > 100 ? product.MoTa.Substring(0, 100) + "..." : product.MoTa)</p>

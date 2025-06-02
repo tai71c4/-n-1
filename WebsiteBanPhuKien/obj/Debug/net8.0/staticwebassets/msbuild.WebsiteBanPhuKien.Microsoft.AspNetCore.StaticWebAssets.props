@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cizoib3sod</Fingerprint>
-      <Integrity>xFf8mVHJeU8kF3SpJPIMj4F090Ku5yUlx0NZCiAAmKM=</Integrity>
+      <Fingerprint>6gl6p5hmp7</Fingerprint>
+      <Integrity>Fi8JAolscBkPE9Mm4c0HhW/H5CxB3t/8PRZqog/reig=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -36,41 +36,149 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\00833433.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15plus-OtterBox-Figura.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/00833433.webp</RelativePath>
+      <RelativePath>img/15plus-OtterBox-Figura.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dd7zw92fex</Fingerprint>
-      <Integrity>7ys93LXSntnkQzOMqPAoKokI6becY+nu8i/9DfMPQIw=</Integrity>
+      <Fingerprint>yv1rny4x34</Fingerprint>
+      <Integrity>sv4PEOrHtC2XB/XxTbMFSuyHUoA1e/a5GvtvSWZEe78=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\00833433.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15plus-OtterBox-Figura.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\00833472.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15promax-OtterBox-Figura.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/00833472.webp</RelativePath>
+      <RelativePath>img/15promax-OtterBox-Figura.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kwei0hkdmf</Fingerprint>
-      <Integrity>9H+qw6r6lYEyw4JI6pEViz2IPpOydO5kTkC1HSyyy5k=</Integrity>
+      <Fingerprint>gutybcga20</Fingerprint>
+      <Integrity>mOaDbHBI+BsrPVMLrse1kI/Yamw4lN2eiuzeWSUZDlo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\00833472.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15promax-OtterBox-Figura.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16-pri-max-trong-suot.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/16-pri-max-trong-suot.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9bjxomu3w5</Fingerprint>
+      <Integrity>BbD7NasOTsRGMTrKuDFqYULwVmpfLqSOJOfF9iuvwA8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16-pri-max-trong-suot.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16-pro-max-xam-da.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/16-pro-max-xam-da.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>88hwmnlc9f</Fingerprint>
+      <Integrity>yP7zFxrvmqKZCCCeh1XLCUlp0RJODpZZ2cd/Us5QNX4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16-pro-max-xam-da.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mowpygpwfk</Fingerprint>
+      <Integrity>tqNDf4hnQpByFXfOJIwAChvbOKyvax/7CXG5+7kGrlE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\68_1_17.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/68_1_17.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iqjfxvxce6</Fingerprint>
+      <Integrity>qr6URvV52gBlPY6VOYPWoRT7cueyN6f3J1WmNsTNmzg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\68_1_17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zt3nm5110t</Fingerprint>
+      <Integrity>2TLFPJXZBEHwQSwc67oJtaxixV2cRJqBOt7nWtiBaTs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\airpods-4-chong-on-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/airpods-4-chong-on-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kl87mqzkgt</Fingerprint>
+      <Integrity>SNU9Y5R0vx44VpVquv805vSbzZw+W847Lz/iY6JPhXQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\airpods-4-chong-on-2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\apple.png'))">
       <SourceType>Package</SourceType>
@@ -90,23 +198,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\apple.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Aukey.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\b9c33f1cc644221a7b55.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/Aukey.jpg</RelativePath>
+      <RelativePath>img/b9c33f1cc644221a7b55.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rppddjntxz</Fingerprint>
-      <Integrity>b8yFu/X+W1osJZwhinjjwaZ4prbayb1i/r10BHu5ILQ=</Integrity>
+      <Fingerprint>wmhkj4tqx8</Fingerprint>
+      <Integrity>SGnYxjVrNCQw0B/2k6fM42kdxTmE/H80mL3MxF0Gb3U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Aukey.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\b9c33f1cc644221a7b55.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Baseus.jpg'))">
       <SourceType>Package</SourceType>
@@ -126,383 +234,419 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Baseus.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Belkin.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\baseus_bowie_e17.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/Belkin.jpg</RelativePath>
+      <RelativePath>img/baseus_bowie_e17.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bf5p543g8h</Fingerprint>
-      <Integrity>t8wZ1nrwWwov0UQXMTJzBDT/GWuRVlVHdCHCL30fFwg=</Integrity>
+      <Fingerprint>7jufb0439y</Fingerprint>
+      <Integrity>rcxiVjG2BAiKatDT4Lmc7c0QNAuvbiKWuKLS9uJYFtg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Belkin.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\baseus_bowie_e17.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\findx5.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/findx5.jpg</RelativePath>
+      <RelativePath>img/big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l0xsis6nlg</Fingerprint>
-      <Integrity>2wedhRlZK2f+aISDjhPEi+7DohgaSfcnvkyvs3PwMWg=</Integrity>
+      <Fingerprint>y50cwzg5yi</Fingerprint>
+      <Integrity>1lezg5DQYJVELnhAaJchpad/ka8t/ScQWRYjD+8fcxU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\findx5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\iFan.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/iFan.jpg</RelativePath>
+      <RelativePath>img/big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p4al689jhl</Fingerprint>
-      <Integrity>d6N20Cepdd6u9VnV18ZP7C1EAJBYchy8fmYx7LIJee4=</Integrity>
+      <Fingerprint>84r20gpujt</Fingerprint>
+      <Integrity>OLoIe2GF6QuLRTutjXbAKde+GGnwa4JNqxL6h/BVRmo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\iFan.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\JBL.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/JBL.jpg</RelativePath>
+      <RelativePath>img/big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b8utn4ink4</Fingerprint>
-      <Integrity>tdpnYyTmeCupKVMzq5PYjZnXbcapJ0hhDcY4L0ooHto=</Integrity>
+      <Fingerprint>7xw2fhwpe9</Fingerprint>
+      <Integrity>1VnQw1fQekbRcmD+UwW84UJ4cIvDWYyqHvdAM5kKIiI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\JBL.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logitech.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_op-lung-chong-soc-s22-ultra-terra-guard-tot-nha.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/logitech.jpg</RelativePath>
+      <RelativePath>img/big_op-lung-chong-soc-s22-ultra-terra-guard-tot-nha.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wpigu7enk2</Fingerprint>
-      <Integrity>PEMCZXYLvu76crvjUa+LvlvOgI0bjSBmDVmiUtTjUoE=</Integrity>
+      <Fingerprint>48jczcbz6l</Fingerprint>
+      <Integrity>rPBjfe+qr5nlmFuUCIiY+xqkbkcaksxbvuaFeUPIYjE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logitech.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_op-lung-chong-soc-s22-ultra-terra-guard-tot-nha.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Nillkin.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/Nillkin.jpg</RelativePath>
+      <RelativePath>img/big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zh5zoebck9</Fingerprint>
-      <Integrity>aTny0O2o1TOk0y6Cxb8vJDDlkMOV0lJsvOl/E3afwS0=</Integrity>
+      <Fingerprint>h5avpy5oq6</Fingerprint>
+      <Integrity>2+n7ln2LV/fAZ8/sEl/H7Oh4sCeuEiPSpVg3zaftT5Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Nillkin.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\OpLungdeo13.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/OpLungdeo13.jpg</RelativePath>
+      <RelativePath>img/bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7lt4q3w0r0</Fingerprint>
-      <Integrity>NUvVZOqCAXS/Rydt9PTznwqlrN1snJn8KlMTQdGaWRo=</Integrity>
+      <Fingerprint>htknfs1ybb</Fingerprint>
+      <Integrity>20e6rSHIpR/KmtyKsXGRXFRBUDsSsfsZ5v706IROOwo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\OpLungdeo13.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo14pro.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bo-sac-hoco-c80-03.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungdeo14pro.png</RelativePath>
+      <RelativePath>img/bo-sac-hoco-c80-03.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ebb74ho654</Fingerprint>
-      <Integrity>9mLb9IfjXh2c9iTl+VLSEO3e5a06o9Q45xHUHfzG2IQ=</Integrity>
+      <Fingerprint>bqwzhllb0m</Fingerprint>
+      <Integrity>c8WNW3Gk6zVpbIKkB5ARLQd5FGz16iGBXRCJFk3iWm4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo14pro.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bo-sac-hoco-c80-03.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo15.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\busd2-den.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungdeo15.png</RelativePath>
+      <RelativePath>img/busd2-den.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8x0l7vh1is</Fingerprint>
-      <Integrity>7IqsebUoENM22BPNeOW/xZHjmv+rHEbWIDm5HAUyeFo=</Integrity>
+      <Fingerprint>5lti5b7c4w</Fingerprint>
+      <Integrity>SQdb7LZ4sE1mZqgEKOghCOOgp2sft8dB2PUQaMD1MLo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo15.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\busd2-den.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeofold5.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungdeofold5.jpg</RelativePath>
+      <RelativePath>img/cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c9y9hmgfcx</Fingerprint>
-      <Integrity>UGE0zhZ8zkLYm+1D+CXIpzirxfjGlnrhmrWm1j436fQ=</Integrity>
+      <Fingerprint>udf8gyzyf8</Fingerprint>
+      <Integrity>4od8AyIJYCURdtstuApBkYhW/4Hzi799gNpwhohK594=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeofold5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeos23.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\group_1121_1_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungdeos23.jpg</RelativePath>
+      <RelativePath>img/group_1121_1_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cq1rg2ocpy</Fingerprint>
-      <Integrity>fOYnRRr21rbgNr8G7GgcjnO+FUTuxmQ+/6PIB03yww8=</Integrity>
+      <Fingerprint>bj7zsxzhig</Fingerprint>
+      <Integrity>50D5C32LIS07OQDLYF7Rzdi55vJ1l2tyTW94KbKrDro=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeos23.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\group_1121_1_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdepnote20.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\group_2003_3_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungdepnote20.jpg</RelativePath>
+      <RelativePath>img/group_2003_3_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b41i5aqj6k</Fingerprint>
-      <Integrity>1Tyc+CQaOo3AB9NgxuL+fbbsRRb38KuvprCqr1Vmy4U=</Integrity>
+      <Fingerprint>hv6qhzsd0k</Fingerprint>
+      <Integrity>TcIZY67nic4p2da+6HZ4Tt2CQ/eUflWXgVXzYNUwnuQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdepnote20.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\group_2003_3_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong 16.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\group_249_5_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungtrong 16.jpg</RelativePath>
+      <RelativePath>img/group_249_5_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>drebwrvzm7</Fingerprint>
-      <Integrity>eTuTWjbEkyYcVGXIQsWH0fmtes5FIRy2ffSRp6BTPH8=</Integrity>
+      <Fingerprint>gbexxnu5z3</Fingerprint>
+      <Integrity>vGOkH31nobYH5n4ciIaiuJX/Ezk4cQUpnMz5pjR8fWU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong 16.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\group_249_5_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong12.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\HR282.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungtrong12.jpg</RelativePath>
+      <RelativePath>img/HR282.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bck4k90jgu</Fingerprint>
-      <Integrity>+1dKiXYmwjsx9Mpz4+fL1mmlApFLUN9bC4WST/85zJo=</Integrity>
+      <Fingerprint>f58lchvyp7</Fingerprint>
+      <Integrity>g/yj5gjS8JV+QilRMWjvFEYKtRezM7o1ZscuXjdNxVY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong12.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\HR282.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong34.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungtrong34.jpg</RelativePath>
+      <RelativePath>img/hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8w215aj4ve</Fingerprint>
-      <Integrity>GH4WXbnAOTyJ4Dm5YyzcHVAlSNCvoDdwguSaS/hjVj0=</Integrity>
+      <Fingerprint>07ofa5opom</Fingerprint>
+      <Integrity>xJmxanEDT4mxluW3t8Ar7FKo3pjxS2WOz/XnDvBz9gM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong34.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong54.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\innostyle_powermag_15w_2_in_1_stand_2_4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oplungtrong54.jpg</RelativePath>
+      <RelativePath>img/innostyle_powermag_15w_2_in_1_stand_2_4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lwd5393eqp</Fingerprint>
-      <Integrity>pSxTAe2GRdtivv703uUfRugL5UjVR8+cbqBl1Cx5kJk=</Integrity>
+      <Fingerprint>5ql6gc4drx</Fingerprint>
+      <Integrity>gwwNIgYdtLSt0d2OZb1rf64Yt5PHaxT9RlnKUaXJv7c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong54.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\innostyle_powermag_15w_2_in_1_stand_2_4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oppo.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oppo.png</RelativePath>
+      <RelativePath>img/kinh-cuong-luc-xiaomi-redmi-note-14.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gudizk56t4</Fingerprint>
-      <Integrity>mLlgkfC93RhIsA+ePz6bAbXdI9eZnLtTCnnIzgaWPN4=</Integrity>
+      <Fingerprint>zi9p9ilsow</Fingerprint>
+      <Integrity>hYK0VB+Z8O2bC3sGi1uwP6hdVcHtDGMumEW16mu8aF0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oppo.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa78.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\minigo-iii-20w-charger_us_05-1024x826.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oppoa78.jpg</RelativePath>
+      <RelativePath>img/minigo-iii-20w-charger_us_05-1024x826.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>un7j47gzgr</Fingerprint>
-      <Integrity>dpKh6uxSr/niTqhP2pxuAknbihoiNcfnpIce4pvDhwQ=</Integrity>
+      <Fingerprint>cl2wwi1hws</Fingerprint>
+      <Integrity>IM17wIFzSRQpLihedl+oedAiKBLKJxUC4QPdcW6Xarc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa78.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\minigo-iii-20w-charger_us_05-1024x826.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa96.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/oppoa96.jpg</RelativePath>
+      <RelativePath>img/pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>grm9npr9l3</Fingerprint>
-      <Integrity>hLnJcpObie6/jrGoSJmZLmik4GjHNIFeiD7Bzc2KJZc=</Integrity>
+      <Fingerprint>a7ymz97gzb</Fingerprint>
+      <Integrity>WnIiNcnUUf32ZW3FGZZnGZ+qRM0LBEAs7xhnWv+afUY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa96.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pocof5.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/pocof5.webp</RelativePath>
+      <RelativePath>img/pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cxoh9yv3l7</Fingerprint>
-      <Integrity>cLnbmJwhxfJRWFhoM5MoV87JRbe1p1KLfywsyyF8Apc=</Integrity>
+      <Fingerprint>g4w2pad52p</Fingerprint>
+      <Integrity>IECOzmWTIA0pfQVGw6RZV/IwHlPFdaYsQUod8dKcmHQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pocof5.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pocox5.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/pocox5.jpg</RelativePath>
+      <RelativePath>img/pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3pxtwpucy8</Fingerprint>
-      <Integrity>KaxLq8VwqzSo2qHp8Z1DE3kH87FBr1XkYshENcA+/Ao=</Integrity>
+      <Fingerprint>6csijk8qp1</Fingerprint>
+      <Integrity>9iJhlgy0YpIAog/i1s6Xte3f1/p132azxs7I9Zo2R3s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pocox5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ly53fb2mjk</Fingerprint>
+      <Integrity>7VsCol6MNvQy3bN6o+VVW9k5QBExg83wxaIXBXX6cvg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0lvil3j3z1</Fingerprint>
+      <Integrity>nH4YITNMzTTQpzCnflUw+WJVY42V+tLMWajWCYPI2gE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\realme.png'))">
       <SourceType>Package</SourceType>
@@ -522,113 +666,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\realme.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\redmi10.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/redmi10.jpg</RelativePath>
+      <RelativePath>img/sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cloypq7po5</Fingerprint>
-      <Integrity>AMI3MPLAeONfYTLmga1aOKbH2Tsu1iHl9LW7ruy1HPs=</Integrity>
+      <Fingerprint>kdfb5tyybe</Fingerprint>
+      <Integrity>aISb9uxhSnnf3FuWEcmSh3HWFgJufeGsXcAWn2ZMgTY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\redmi10.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\redminote12.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebsiteBanPhuKien</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/redminote12.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mwz6hvjsy0</Fingerprint>
-      <Integrity>ukeOBEfn0S2m0ROJnJP3T4MULtbRFMpio0tAr+yH8V4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\redminote12.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reno10.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebsiteBanPhuKien</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/reno10.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a99fyasu0j</Fingerprint>
-      <Integrity>nuZJMAXFYwp4Q41VYZg1mf+TnEH0xZGKl/bG8UC9dOU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reno10.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reno8.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebsiteBanPhuKien</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/reno8.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wbyvbgawsm</Fingerprint>
-      <Integrity>dHVidCJUBQ2Rmtt5Kb64U0MyimAiP1Peu2TCHoHgXLk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\reno8.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\rezer.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebsiteBanPhuKien</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/rezer.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xtk3zpfa2e</Fingerprint>
-      <Integrity>y/w3P/PkaiW25gA4zub0v6t/rnpbeTOtfpt0viS+HfE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\rezer.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Ringke.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebsiteBanPhuKien</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/Ringke.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bfie6qclbv</Fingerprint>
-      <Integrity>OT3gYFZ48f7JR3R0N/gGornOHRz6SAf2CeBQ90jfAcw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Ringke.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\samsung.png'))">
       <SourceType>Package</SourceType>
@@ -648,77 +702,95 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\samsung.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sony.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tai-nghe-apple-earpods-usb-c_7_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/sony.png</RelativePath>
+      <RelativePath>img/tai-nghe-apple-earpods-usb-c_7_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>az4tiho4or</Fingerprint>
-      <Integrity>dnQNHqcL8G8jjrzdcTJV0MCKOr+rHp3PffOdk4xTiig=</Integrity>
+      <Fingerprint>3lcabm9d4t</Fingerprint>
+      <Integrity>NzGUq/JmJjornTXKEkrHXM4/52R3Xl5F6QwYP1+4FEo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sony.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tai-nghe-apple-earpods-usb-c_7_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Spigen.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tai-nghe-co-day-baseus-encok-h17_4_.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/Spigen.jpg</RelativePath>
+      <RelativePath>img/tai-nghe-co-day-baseus-encok-h17_4_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nfgqpj26v8</Fingerprint>
-      <Integrity>s1rQbwE2+RJqI1Q7wCkaDG/My2raaCi6yALgRXeZKRA=</Integrity>
+      <Fingerprint>d0qoive1hn</Fingerprint>
+      <Integrity>ref2qkBk854XOUqjYs8z/fIciFC8UupsL7vNZEgxqvQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Spigen.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tai-nghe-co-day-baseus-encok-h17_4_.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Tudia.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/Tudia.jpg</RelativePath>
+      <RelativePath>img/tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>71wnhyu13t</Fingerprint>
-      <Integrity>FWX4qTL1I6/qJY9ankDjR1OkQfXzPPVkrm6s+FqDqq8=</Integrity>
+      <Fingerprint>m5cgwlc3qg</Fingerprint>
+      <Integrity>dkoH2wCHuO6WEh4gqKs2zI7b8D807TguJExr0fjZw/8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Tudia.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UGreen.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\thumb400_Energizer_HC3MPGY4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/UGreen.jpg</RelativePath>
+      <RelativePath>img/thumb400_Energizer_HC3MPGY4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aw65i1gb9o</Fingerprint>
-      <Integrity>KmhCTD202A0CCdP/j8XtU+BgWa/OEBcziou3NVQazSc=</Integrity>
+      <Fingerprint>984szpt2mo</Fingerprint>
+      <Integrity>l6RJKArnldXUFHGr4OkPEhcZIZp6J2lsRY+FLkyU3c4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\UGreen.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\thumb400_Energizer_HC3MPGY4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>if7rros5ox</Fingerprint>
+      <Integrity>okbgLVK304mWOBMUObqDIvXwl9zRNIfUrOhspfe8vro=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\vivo.png'))">
       <SourceType>Package</SourceType>
@@ -738,23 +810,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\vivo.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\xiaomi14.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\xiaomi-buds-5-pro-wifi.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>img/xiaomi14.jpg</RelativePath>
+      <RelativePath>img/xiaomi-buds-5-pro-wifi.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6po8mkz4bu</Fingerprint>
-      <Integrity>CgX6Y6JDkMdUb5VdpZEe2GP+IqykfoPE25cogOhEpTs=</Integrity>
+      <Fingerprint>e3axxj1m5h</Fingerprint>
+      <Integrity>Wi4BSq7MUyZ+WcSSgmRHazsiVgFvWpKmkF4EkJFZLrU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\xiaomi14.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\xiaomi-buds-5-pro-wifi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>img/z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7alosgl2j0</Fingerprint>
+      <Integrity>QdKqHSYS2sqF/giomFWNfe38wOr7YaYqFWXqSZyn74A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
@@ -1818,6 +1908,348 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0018bc81-44c9-4698-9d7b-d8e9288b0abe_oplungdeo15.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\011cd65b-76f8-4ea7-9e67-3f39d0d5d694_pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/011cd65b-76f8-4ea7-9e67-3f39d0d5d694_pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7ymz97gzb</Fingerprint>
+      <Integrity>WnIiNcnUUf32ZW3FGZZnGZ+qRM0LBEAs7xhnWv+afUY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\011cd65b-76f8-4ea7-9e67-3f39d0d5d694_pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\08767d2c-4cc4-453c-b13b-953f841e1cfc_Op-lung-iphone-14-plus-silicone-case-with-magsafe-den-1(00833442).webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/08767d2c-4cc4-453c-b13b-953f841e1cfc_Op-lung-iphone-14-plus-silicone-case-with-magsafe-den-1(00833442).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0153wsykez</Fingerprint>
+      <Integrity>zJPYukcAwke1SLGCoYxVTFsbojLu4VxswEEUiENHnZ0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\08767d2c-4cc4-453c-b13b-953f841e1cfc_Op-lung-iphone-14-plus-silicone-case-with-magsafe-den-1(00833442).webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\09804f06-6879-4b47-984b-81f9930642cb_hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/09804f06-6879-4b47-984b-81f9930642cb_hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>07ofa5opom</Fingerprint>
+      <Integrity>xJmxanEDT4mxluW3t8Ar7FKo3pjxS2WOz/XnDvBz9gM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\09804f06-6879-4b47-984b-81f9930642cb_hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e72111b-ef1d-4aa0-9a07-73055c17d3db_68_1_17.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/0e72111b-ef1d-4aa0-9a07-73055c17d3db_68_1_17.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iqjfxvxce6</Fingerprint>
+      <Integrity>qr6URvV52gBlPY6VOYPWoRT7cueyN6f3J1WmNsTNmzg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e72111b-ef1d-4aa0-9a07-73055c17d3db_68_1_17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1392036f-f8d8-4681-b665-92e2fe6365ce_pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/1392036f-f8d8-4681-b665-92e2fe6365ce_pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0lvil3j3z1</Fingerprint>
+      <Integrity>nH4YITNMzTTQpzCnflUw+WJVY42V+tLMWajWCYPI2gE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1392036f-f8d8-4681-b665-92e2fe6365ce_pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\178ba12c-7e23-461f-9502-079efe5c71a4_sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/178ba12c-7e23-461f-9502-079efe5c71a4_sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kdfb5tyybe</Fingerprint>
+      <Integrity>aISb9uxhSnnf3FuWEcmSh3HWFgJufeGsXcAWn2ZMgTY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\178ba12c-7e23-461f-9502-079efe5c71a4_sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\17ee0bcd-78df-4069-b938-31dfaa98854a_minigo-iii-20w-charger_us_05-1024x826.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/17ee0bcd-78df-4069-b938-31dfaa98854a_minigo-iii-20w-charger_us_05-1024x826.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cl2wwi1hws</Fingerprint>
+      <Integrity>IM17wIFzSRQpLihedl+oedAiKBLKJxUC4QPdcW6Xarc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\17ee0bcd-78df-4069-b938-31dfaa98854a_minigo-iii-20w-charger_us_05-1024x826.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1846afc9-9f42-442d-969c-aafba7db826d_16-pri-max-trong-suot.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/1846afc9-9f42-442d-969c-aafba7db826d_16-pri-max-trong-suot.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9bjxomu3w5</Fingerprint>
+      <Integrity>BbD7NasOTsRGMTrKuDFqYULwVmpfLqSOJOfF9iuvwA8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1846afc9-9f42-442d-969c-aafba7db826d_16-pri-max-trong-suot.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\220015b0-904b-48ed-ad4f-d6790f75828f_b9c33f1cc644221a7b55.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/220015b0-904b-48ed-ad4f-d6790f75828f_b9c33f1cc644221a7b55.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wmhkj4tqx8</Fingerprint>
+      <Integrity>SGnYxjVrNCQw0B/2k6fM42kdxTmE/H80mL3MxF0Gb3U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\220015b0-904b-48ed-ad4f-d6790f75828f_b9c33f1cc644221a7b55.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\22345333-e8e9-45ac-bf7e-94e919866999_z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/22345333-e8e9-45ac-bf7e-94e919866999_z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7alosgl2j0</Fingerprint>
+      <Integrity>QdKqHSYS2sqF/giomFWNfe38wOr7YaYqFWXqSZyn74A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\22345333-e8e9-45ac-bf7e-94e919866999_z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\26ce60cf-3023-4b16-b835-f94b2c55cb67_Op-lung-iphone-13-clear-case-with-magsafe-1(00773468).webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/26ce60cf-3023-4b16-b835-f94b2c55cb67_Op-lung-iphone-13-clear-case-with-magsafe-1(00773468).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7endyjtvj2</Fingerprint>
+      <Integrity>r9W09ap5VaIwsDqVxoZY9wfe3WmQICDahVo1kem5odU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\26ce60cf-3023-4b16-b835-f94b2c55cb67_Op-lung-iphone-13-clear-case-with-magsafe-1(00773468).webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2c41fd93-3b2f-4f61-8162-4b45d2be1f58_pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/2c41fd93-3b2f-4f61-8162-4b45d2be1f58_pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6csijk8qp1</Fingerprint>
+      <Integrity>9iJhlgy0YpIAog/i1s6Xte3f1/p132azxs7I9Zo2R3s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2c41fd93-3b2f-4f61-8162-4b45d2be1f58_pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2f16ed51-dd41-4734-8aa2-799d894fe5a3_untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/2f16ed51-dd41-4734-8aa2-799d894fe5a3_untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>if7rros5ox</Fingerprint>
+      <Integrity>okbgLVK304mWOBMUObqDIvXwl9zRNIfUrOhspfe8vro=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2f16ed51-dd41-4734-8aa2-799d894fe5a3_untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3145ae99-3a5d-4997-9cd3-53281ca4f427_pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/3145ae99-3a5d-4997-9cd3-53281ca4f427_pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ly53fb2mjk</Fingerprint>
+      <Integrity>7VsCol6MNvQy3bN6o+VVW9k5QBExg83wxaIXBXX6cvg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3145ae99-3a5d-4997-9cd3-53281ca4f427_pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\338e50b0-b673-4395-ab81-bc81ab058230_baseus_bowie_e17.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/338e50b0-b673-4395-ab81-bc81ab058230_baseus_bowie_e17.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7jufb0439y</Fingerprint>
+      <Integrity>rcxiVjG2BAiKatDT4Lmc7c0QNAuvbiKWuKLS9uJYFtg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\338e50b0-b673-4395-ab81-bc81ab058230_baseus_bowie_e17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\340e7e83-48af-4f03-b82e-dfa7e5b1944a_Op-lung-iphone-15-plus-silicone-with-magSafe-nau-(00904532).webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/340e7e83-48af-4f03-b82e-dfa7e5b1944a_Op-lung-iphone-15-plus-silicone-with-magSafe-nau-(00904532).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vik6ib6mpw</Fingerprint>
+      <Integrity>Z+tjiDBt4cIxN6J9cmiEqE+JmgBbIyBCw+Mi7O5Tw7o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\340e7e83-48af-4f03-b82e-dfa7e5b1944a_Op-lung-iphone-15-plus-silicone-with-magSafe-nau-(00904532).webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3437a72e-fe41-4cfb-82bc-fa72b4fe7c37_xiaomi-buds-5-pro-wifi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/3437a72e-fe41-4cfb-82bc-fa72b4fe7c37_xiaomi-buds-5-pro-wifi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e3axxj1m5h</Fingerprint>
+      <Integrity>Wi4BSq7MUyZ+WcSSgmRHazsiVgFvWpKmkF4EkJFZLrU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3437a72e-fe41-4cfb-82bc-fa72b4fe7c37_xiaomi-buds-5-pro-wifi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\34dad0e4-40bf-4a72-bb33-8945db737f7c_tai-nghe-co-day-baseus-encok-h17_4_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/34dad0e4-40bf-4a72-bb33-8945db737f7c_tai-nghe-co-day-baseus-encok-h17_4_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d0qoive1hn</Fingerprint>
+      <Integrity>ref2qkBk854XOUqjYs8z/fIciFC8UupsL7vNZEgxqvQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\34dad0e4-40bf-4a72-bb33-8945db737f7c_tai-nghe-co-day-baseus-encok-h17_4_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\352bdd39-068d-4ab6-8498-1af039e2a9cf_16-pro-max-xam-da.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/352bdd39-068d-4ab6-8498-1af039e2a9cf_16-pro-max-xam-da.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>88hwmnlc9f</Fingerprint>
+      <Integrity>yP7zFxrvmqKZCCCeh1XLCUlp0RJODpZZ2cd/Us5QNX4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\352bdd39-068d-4ab6-8498-1af039e2a9cf_16-pro-max-xam-da.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -1854,12 +2286,264 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\363fd31a-8884-4c47-9139-dfbf6d2d05e0_oplungdeo15.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3b4225fc-4258-49c9-8b79-e763eda76d0a_00833433.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\370a32a9-b6a9-4dec-a80d-4391bd7643e3_oplung-Silicone-Galaxy-S25-Edge.avif'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>uploads/3b4225fc-4258-49c9-8b79-e763eda76d0a_00833433.webp</RelativePath>
+      <RelativePath>uploads/370a32a9-b6a9-4dec-a80d-4391bd7643e3_oplung-Silicone-Galaxy-S25-Edge.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zzbq73u8v5</Fingerprint>
+      <Integrity>wQ0BEHsV91L19O2o060MCkvBqtEsH3WMEwjRvtljpj8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\370a32a9-b6a9-4dec-a80d-4391bd7643e3_oplung-Silicone-Galaxy-S25-Edge.avif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\398ff427-3e19-4b1c-a9e2-018f30ad4641_kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/398ff427-3e19-4b1c-a9e2-018f30ad4641_kinh-cuong-luc-xiaomi-redmi-note-14.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zi9p9ilsow</Fingerprint>
+      <Integrity>hYK0VB+Z8O2bC3sGi1uwP6hdVcHtDGMumEW16mu8aF0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\398ff427-3e19-4b1c-a9e2-018f30ad4641_kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\399b35c5-0052-43ff-a310-4325d4d490a9_tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/399b35c5-0052-43ff-a310-4325d4d490a9_tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m5cgwlc3qg</Fingerprint>
+      <Integrity>dkoH2wCHuO6WEh4gqKs2zI7b8D807TguJExr0fjZw/8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\399b35c5-0052-43ff-a310-4325d4d490a9_tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3b76a938-1006-450f-b2a8-970e1fb583eb_sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/3b76a938-1006-450f-b2a8-970e1fb583eb_sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kdfb5tyybe</Fingerprint>
+      <Integrity>aISb9uxhSnnf3FuWEcmSh3HWFgJufeGsXcAWn2ZMgTY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3b76a938-1006-450f-b2a8-970e1fb583eb_sac_nhanh_anker_zolo_30w_-_a2698_43a7008eba2842bcb3aad4d9795dd67b_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3c0177b5-dedc-43b7-a8cb-8d52cfdf0791_a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/3c0177b5-dedc-43b7-a8cb-8d52cfdf0791_a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zt3nm5110t</Fingerprint>
+      <Integrity>2TLFPJXZBEHwQSwc67oJtaxixV2cRJqBOt7nWtiBaTs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3c0177b5-dedc-43b7-a8cb-8d52cfdf0791_a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\415fde76-6173-4061-8389-6c0186beeed2_group_249_5_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/415fde76-6173-4061-8389-6c0186beeed2_group_249_5_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gbexxnu5z3</Fingerprint>
+      <Integrity>vGOkH31nobYH5n4ciIaiuJX/Ezk4cQUpnMz5pjR8fWU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\415fde76-6173-4061-8389-6c0186beeed2_group_249_5_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4747bf97-6e35-48f1-a730-2226c52ba000_68_1_17.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/4747bf97-6e35-48f1-a730-2226c52ba000_68_1_17.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iqjfxvxce6</Fingerprint>
+      <Integrity>qr6URvV52gBlPY6VOYPWoRT7cueyN6f3J1WmNsTNmzg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4747bf97-6e35-48f1-a730-2226c52ba000_68_1_17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\49de05fe-b4e2-4634-8b02-71661066e6d5_a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/49de05fe-b4e2-4634-8b02-71661066e6d5_a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zt3nm5110t</Fingerprint>
+      <Integrity>2TLFPJXZBEHwQSwc67oJtaxixV2cRJqBOt7nWtiBaTs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\49de05fe-b4e2-4634-8b02-71661066e6d5_a2667_2_a3f9bc3d24954956bbf56039b90ce280_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4ca766a5-4e31-4f62-b36c-9c51f6477766_16-pri-max-trong-suot.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/4ca766a5-4e31-4f62-b36c-9c51f6477766_16-pri-max-trong-suot.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9bjxomu3w5</Fingerprint>
+      <Integrity>BbD7NasOTsRGMTrKuDFqYULwVmpfLqSOJOfF9iuvwA8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4ca766a5-4e31-4f62-b36c-9c51f6477766_16-pri-max-trong-suot.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d93760c-a37e-42a3-bc19-90fa669c16fe_Op-lung-iphone-15-pro-finewoven-with-magsafe-den-1(00904538).webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/4d93760c-a37e-42a3-bc19-90fa669c16fe_Op-lung-iphone-15-pro-finewoven-with-magsafe-den-1(00904538).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gpj556zaxr</Fingerprint>
+      <Integrity>BKB+Nj50Dhpdyj0vaYaGf+M7D2XIXDWYCkVTHrtK/jU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d93760c-a37e-42a3-bc19-90fa669c16fe_Op-lung-iphone-15-pro-finewoven-with-magsafe-den-1(00904538).webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5436cd40-fe80-47e7-99c2-770ff7c659c2_bo-sac-hoco-c80-03.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/5436cd40-fe80-47e7-99c2-770ff7c659c2_bo-sac-hoco-c80-03.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bqwzhllb0m</Fingerprint>
+      <Integrity>c8WNW3Gk6zVpbIKkB5ARLQd5FGz16iGBXRCJFk3iWm4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5436cd40-fe80-47e7-99c2-770ff7c659c2_bo-sac-hoco-c80-03.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\58ef274b-2f5d-4300-a343-bbce16024a86_baseus_bowie_e17.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/58ef274b-2f5d-4300-a343-bbce16024a86_baseus_bowie_e17.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7jufb0439y</Fingerprint>
+      <Integrity>rcxiVjG2BAiKatDT4Lmc7c0QNAuvbiKWuKLS9uJYFtg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\58ef274b-2f5d-4300-a343-bbce16024a86_baseus_bowie_e17.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5b03cfb5-a4a0-4333-87f3-82a284a4e661_15plus-OtterBox-Figura.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/5b03cfb5-a4a0-4333-87f3-82a284a4e661_15plus-OtterBox-Figura.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yv1rny4x34</Fingerprint>
+      <Integrity>sv4PEOrHtC2XB/XxTbMFSuyHUoA1e/a5GvtvSWZEe78=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5b03cfb5-a4a0-4333-87f3-82a284a4e661_15plus-OtterBox-Figura.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5b3984f3-d0bd-4d46-923f-1be1224f39c3_innostyle_powermag_15w_2_in_1_stand_2_4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/5b3984f3-d0bd-4d46-923f-1be1224f39c3_innostyle_powermag_15w_2_in_1_stand_2_4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ql6gc4drx</Fingerprint>
+      <Integrity>gwwNIgYdtLSt0d2OZb1rf64Yt5PHaxT9RlnKUaXJv7c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5b3984f3-d0bd-4d46-923f-1be1224f39c3_innostyle_powermag_15w_2_in_1_stand_2_4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e2bd8b9-91f8-42e4-a33a-4ebb30842378_00833433.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/5e2bd8b9-91f8-42e4-a33a-4ebb30842378_00833433.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1870,7 +2554,313 @@
       <Integrity>7ys93LXSntnkQzOMqPAoKokI6becY+nu8i/9DfMPQIw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3b4225fc-4258-49c9-8b79-e763eda76d0a_00833433.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e2bd8b9-91f8-42e4-a33a-4ebb30842378_00833433.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\607c0b5b-b8da-4cb2-a73c-d317ae3e463e_00904538.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/607c0b5b-b8da-4cb2-a73c-d317ae3e463e_00904538.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9ywhosd99v</Fingerprint>
+      <Integrity>EdlmK8w7z3t4qzdYuVgHLEhokLUQi9f9Lhlw/ZA0Pho=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\607c0b5b-b8da-4cb2-a73c-d317ae3e463e_00904538.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\65e38289-7dc3-4b79-addf-1450efe3a410_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/65e38289-7dc3-4b79-addf-1450efe3a410_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h5avpy5oq6</Fingerprint>
+      <Integrity>2+n7ln2LV/fAZ8/sEl/H7Oh4sCeuEiPSpVg3zaftT5Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\65e38289-7dc3-4b79-addf-1450efe3a410_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\66953a2e-8ac4-479e-b5b5-af500af2841e_big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/66953a2e-8ac4-479e-b5b5-af500af2841e_big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7xw2fhwpe9</Fingerprint>
+      <Integrity>1VnQw1fQekbRcmD+UwW84UJ4cIvDWYyqHvdAM5kKIiI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\66953a2e-8ac4-479e-b5b5-af500af2841e_big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\669d6c11-6e0f-4f5e-aaca-66e043c33f3c_Op-lung-iphone-15-plus-finewoven-with-magsafe-xanhluc-1(00904526).webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/669d6c11-6e0f-4f5e-aaca-66e043c33f3c_Op-lung-iphone-15-plus-finewoven-with-magsafe-xanhluc-1(00904526).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>10xv3wrueg</Fingerprint>
+      <Integrity>L7RHPWUAohKna3mDzASHvEW8tEFgvtu8swtTiHfHJAU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\669d6c11-6e0f-4f5e-aaca-66e043c33f3c_Op-lung-iphone-15-plus-finewoven-with-magsafe-xanhluc-1(00904526).webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6754c851-facc-4220-a678-76319ad147f5_airpods-4-chong-on-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/6754c851-facc-4220-a678-76319ad147f5_airpods-4-chong-on-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kl87mqzkgt</Fingerprint>
+      <Integrity>SNU9Y5R0vx44VpVquv805vSbzZw+W847Lz/iY6JPhXQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6754c851-facc-4220-a678-76319ad147f5_airpods-4-chong-on-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\67ccff9c-baf4-4ffd-b1aa-03530dd1c0a4_Op-lung-iphone-14-pro-clear-case-with-magsafe-1(00833447).webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/67ccff9c-baf4-4ffd-b1aa-03530dd1c0a4_Op-lung-iphone-14-pro-clear-case-with-magsafe-1(00833447).webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4k7vxz8rsg</Fingerprint>
+      <Integrity>BKU9sNKuZPFSOzZ8A4kFQIJ46C2y4ECDWV63TS7Fq7A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\67ccff9c-baf4-4ffd-b1aa-03530dd1c0a4_Op-lung-iphone-14-pro-clear-case-with-magsafe-1(00833447).webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\684e0792-3799-4eab-af8c-d3fa680ca8cd_tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/684e0792-3799-4eab-af8c-d3fa680ca8cd_tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m5cgwlc3qg</Fingerprint>
+      <Integrity>dkoH2wCHuO6WEh4gqKs2zI7b8D807TguJExr0fjZw/8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\684e0792-3799-4eab-af8c-d3fa680ca8cd_tai-nghe-samsung-galaxy-buds-3-pro-spa_1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69573d22-db42-4e3a-a089-a24e224280ad_tai-nghe-apple-earpods-usb-c_7_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/69573d22-db42-4e3a-a089-a24e224280ad_tai-nghe-apple-earpods-usb-c_7_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3lcabm9d4t</Fingerprint>
+      <Integrity>NzGUq/JmJjornTXKEkrHXM4/52R3Xl5F6QwYP1+4FEo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69573d22-db42-4e3a-a089-a24e224280ad_tai-nghe-apple-earpods-usb-c_7_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69989080-5ec1-46a2-872a-4c00dba4ef1f_cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/69989080-5ec1-46a2-872a-4c00dba4ef1f_cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>udf8gyzyf8</Fingerprint>
+      <Integrity>4od8AyIJYCURdtstuApBkYhW/4Hzi799gNpwhohK594=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69989080-5ec1-46a2-872a-4c00dba4ef1f_cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69a23171-a74a-41ad-9198-f6838ef2afc5_pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/69a23171-a74a-41ad-9198-f6838ef2afc5_pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ly53fb2mjk</Fingerprint>
+      <Integrity>7VsCol6MNvQy3bN6o+VVW9k5QBExg83wxaIXBXX6cvg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\69a23171-a74a-41ad-9198-f6838ef2afc5_pin-sac-du-phong-energizer-ue30050-30000mah-3-7v-li-polymer_5_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6fcb1e77-6d72-436d-8be0-c0e19426a424_tai-nghe-apple-earpods-usb-c_7_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/6fcb1e77-6d72-436d-8be0-c0e19426a424_tai-nghe-apple-earpods-usb-c_7_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3lcabm9d4t</Fingerprint>
+      <Integrity>NzGUq/JmJjornTXKEkrHXM4/52R3Xl5F6QwYP1+4FEo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6fcb1e77-6d72-436d-8be0-c0e19426a424_tai-nghe-apple-earpods-usb-c_7_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\762096b0-c0f1-4e9d-adb8-6152cf0ed1d3_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/762096b0-c0f1-4e9d-adb8-6152cf0ed1d3_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h5avpy5oq6</Fingerprint>
+      <Integrity>2+n7ln2LV/fAZ8/sEl/H7Oh4sCeuEiPSpVg3zaftT5Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\762096b0-c0f1-4e9d-adb8-6152cf0ed1d3_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\762365be-06ee-4c4d-8bb9-811283f33579_xiaomi-buds-5-pro-wifi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/762365be-06ee-4c4d-8bb9-811283f33579_xiaomi-buds-5-pro-wifi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e3axxj1m5h</Fingerprint>
+      <Integrity>Wi4BSq7MUyZ+WcSSgmRHazsiVgFvWpKmkF4EkJFZLrU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\762365be-06ee-4c4d-8bb9-811283f33579_xiaomi-buds-5-pro-wifi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\79cbf01c-ad5f-42e5-8811-892f6600d33c_15plus-OtterBox-Figura.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/79cbf01c-ad5f-42e5-8811-892f6600d33c_15plus-OtterBox-Figura.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yv1rny4x34</Fingerprint>
+      <Integrity>sv4PEOrHtC2XB/XxTbMFSuyHUoA1e/a5GvtvSWZEe78=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\79cbf01c-ad5f-42e5-8811-892f6600d33c_15plus-OtterBox-Figura.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7c8c4647-58d6-4031-80c5-af6393b2eadd_thumb400_Energizer_HC3MPGY4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/7c8c4647-58d6-4031-80c5-af6393b2eadd_thumb400_Energizer_HC3MPGY4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>984szpt2mo</Fingerprint>
+      <Integrity>l6RJKArnldXUFHGr4OkPEhcZIZp6J2lsRY+FLkyU3c4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7c8c4647-58d6-4031-80c5-af6393b2eadd_thumb400_Energizer_HC3MPGY4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7e9c0131-9e24-419d-840f-13e594019326_big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/7e9c0131-9e24-419d-840f-13e594019326_big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y50cwzg5yi</Fingerprint>
+      <Integrity>1lezg5DQYJVELnhAaJchpad/ka8t/ScQWRYjD+8fcxU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7e9c0131-9e24-419d-840f-13e594019326_big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81838355-f47b-4e2b-a8a4-2dfc38b36b1d_kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/81838355-f47b-4e2b-a8a4-2dfc38b36b1d_kinh-cuong-luc-xiaomi-redmi-note-14.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zi9p9ilsow</Fingerprint>
+      <Integrity>hYK0VB+Z8O2bC3sGi1uwP6hdVcHtDGMumEW16mu8aF0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81838355-f47b-4e2b-a8a4-2dfc38b36b1d_kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81edbbc9-4e39-4a5e-a45a-49a6cded7acb_00833472.webp'))">
       <SourceType>Package</SourceType>
@@ -1890,6 +2880,312 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81edbbc9-4e39-4a5e-a45a-49a6cded7acb_00833472.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8d6eab4c-107a-475b-9f64-c94fadaac973_z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/8d6eab4c-107a-475b-9f64-c94fadaac973_z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7alosgl2j0</Fingerprint>
+      <Integrity>QdKqHSYS2sqF/giomFWNfe38wOr7YaYqFWXqSZyn74A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8d6eab4c-107a-475b-9f64-c94fadaac973_z3749006978466_67e95a9cb49feb0030478005c44b0f82_e90ac1adcd0d4ecb81aca187085e0ed0_1024x1024.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8ef09c44-52e9-4866-a613-2d935b7d2897_bo-sac-hoco-c80-03.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/8ef09c44-52e9-4866-a613-2d935b7d2897_bo-sac-hoco-c80-03.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bqwzhllb0m</Fingerprint>
+      <Integrity>c8WNW3Gk6zVpbIKkB5ARLQd5FGz16iGBXRCJFk3iWm4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8ef09c44-52e9-4866-a613-2d935b7d2897_bo-sac-hoco-c80-03.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8f217b17-8917-40a2-afce-6ab769eb33eb_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/8f217b17-8917-40a2-afce-6ab769eb33eb_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h5avpy5oq6</Fingerprint>
+      <Integrity>2+n7ln2LV/fAZ8/sEl/H7Oh4sCeuEiPSpVg3zaftT5Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8f217b17-8917-40a2-afce-6ab769eb33eb_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8f916e8b-25f8-4b25-8e82-6036528a42b7_2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/8f916e8b-25f8-4b25-8e82-6036528a42b7_2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mowpygpwfk</Fingerprint>
+      <Integrity>tqNDf4hnQpByFXfOJIwAChvbOKyvax/7CXG5+7kGrlE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8f916e8b-25f8-4b25-8e82-6036528a42b7_2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\900c711c-8a71-48cf-be31-b2175865f726_00833472.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/900c711c-8a71-48cf-be31-b2175865f726_00833472.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kwei0hkdmf</Fingerprint>
+      <Integrity>9H+qw6r6lYEyw4JI6pEViz2IPpOydO5kTkC1HSyyy5k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\900c711c-8a71-48cf-be31-b2175865f726_00833472.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9059ab75-ab25-4b9a-a3e2-8b67a254e20f_16 Pro Max.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/9059ab75-ab25-4b9a-a3e2-8b67a254e20f_16 Pro Max.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9bjxomu3w5</Fingerprint>
+      <Integrity>BbD7NasOTsRGMTrKuDFqYULwVmpfLqSOJOfF9iuvwA8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9059ab75-ab25-4b9a-a3e2-8b67a254e20f_16 Pro Max.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\92db4632-a40c-40b5-95b7-134debab72ec_bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/92db4632-a40c-40b5-95b7-134debab72ec_bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>htknfs1ybb</Fingerprint>
+      <Integrity>20e6rSHIpR/KmtyKsXGRXFRBUDsSsfsZ5v706IROOwo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\92db4632-a40c-40b5-95b7-134debab72ec_bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e1b1802-a492-451d-8715-b260ad96ac2c_minigo-iii-20w-charger_us_05-1024x826.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/9e1b1802-a492-451d-8715-b260ad96ac2c_minigo-iii-20w-charger_us_05-1024x826.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cl2wwi1hws</Fingerprint>
+      <Integrity>IM17wIFzSRQpLihedl+oedAiKBLKJxUC4QPdcW6Xarc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9e1b1802-a492-451d-8715-b260ad96ac2c_minigo-iii-20w-charger_us_05-1024x826.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9f09c4f1-26e2-4bba-9086-856cf80dfab7_kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/9f09c4f1-26e2-4bba-9086-856cf80dfab7_kinh-cuong-luc-xiaomi-redmi-note-14.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zi9p9ilsow</Fingerprint>
+      <Integrity>hYK0VB+Z8O2bC3sGi1uwP6hdVcHtDGMumEW16mu8aF0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9f09c4f1-26e2-4bba-9086-856cf80dfab7_kinh-cuong-luc-xiaomi-redmi-note-14.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a3adc157-4a32-4c40-8652-d76f7171e176_pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/a3adc157-4a32-4c40-8652-d76f7171e176_pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6csijk8qp1</Fingerprint>
+      <Integrity>9iJhlgy0YpIAog/i1s6Xte3f1/p132azxs7I9Zo2R3s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a3adc157-4a32-4c40-8652-d76f7171e176_pin-sac-du-phong-d079-10000mah-22-5w_6_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a762c8a5-4771-4680-8977-2baa86e5caa2_group_1121_1_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/a762c8a5-4771-4680-8977-2baa86e5caa2_group_1121_1_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bj7zsxzhig</Fingerprint>
+      <Integrity>50D5C32LIS07OQDLYF7Rzdi55vJ1l2tyTW94KbKrDro=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a762c8a5-4771-4680-8977-2baa86e5caa2_group_1121_1_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a8d4064d-f617-4117-aac4-512682e6d67e_group_2003_3_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/a8d4064d-f617-4117-aac4-512682e6d67e_group_2003_3_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hv6qhzsd0k</Fingerprint>
+      <Integrity>TcIZY67nic4p2da+6HZ4Tt2CQ/eUflWXgVXzYNUwnuQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a8d4064d-f617-4117-aac4-512682e6d67e_group_2003_3_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\abfbfda6-41ba-4209-964e-61e27dd00c56_cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/abfbfda6-41ba-4209-964e-61e27dd00c56_cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>udf8gyzyf8</Fingerprint>
+      <Integrity>4od8AyIJYCURdtstuApBkYhW/4Hzi799gNpwhohK594=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\abfbfda6-41ba-4209-964e-61e27dd00c56_cap-sac-nhanh-pd-type-c-to-lightning-hoco-x56-1m-3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b04964dd-d783-4be3-ac6f-11a2255f0bf7_16 Pro Max.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/b04964dd-d783-4be3-ac6f-11a2255f0bf7_16 Pro Max.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9bjxomu3w5</Fingerprint>
+      <Integrity>BbD7NasOTsRGMTrKuDFqYULwVmpfLqSOJOfF9iuvwA8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b04964dd-d783-4be3-ac6f-11a2255f0bf7_16 Pro Max.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b14a56c9-92eb-4630-8df1-1f2839f86ce5_HR282.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/b14a56c9-92eb-4630-8df1-1f2839f86ce5_HR282.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f58lchvyp7</Fingerprint>
+      <Integrity>g/yj5gjS8JV+QilRMWjvFEYKtRezM7o1ZscuXjdNxVY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b14a56c9-92eb-4630-8df1-1f2839f86ce5_HR282.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b3765013-7c78-41f1-9006-5045b5cb7207_hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/b3765013-7c78-41f1-9006-5045b5cb7207_hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>07ofa5opom</Fingerprint>
+      <Integrity>xJmxanEDT4mxluW3t8Ar7FKo3pjxS2WOz/XnDvBz9gM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b3765013-7c78-41f1-9006-5045b5cb7207_hub-chuyen-doi-baseus-metal-gleam-type-c-4-in-1-4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b396195b-3661-4a33-a979-b2f67b3476c6_bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/b396195b-3661-4a33-a979-b2f67b3476c6_bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>htknfs1ybb</Fingerprint>
+      <Integrity>20e6rSHIpR/KmtyKsXGRXFRBUDsSsfsZ5v706IROOwo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b396195b-3661-4a33-a979-b2f67b3476c6_bo-chuyen-doi-anker-552-a8373-9-in-1-usb-c-to-hdmi-rj45-tf-sd-usb-4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b5e3b99a-4d62-4123-a1d7-e746454be9aa_00833433.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -1907,6 +3203,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b5e3b99a-4d62-4123-a1d7-e746454be9aa_00833433.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b90f64db-0419-4f4c-b129-a88d9b63df1a_innostyle_powermag_15w_2_in_1_stand_2_4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/b90f64db-0419-4f4c-b129-a88d9b63df1a_innostyle_powermag_15w_2_in_1_stand_2_4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ql6gc4drx</Fingerprint>
+      <Integrity>gwwNIgYdtLSt0d2OZb1rf64Yt5PHaxT9RlnKUaXJv7c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b90f64db-0419-4f4c-b129-a88d9b63df1a_innostyle_powermag_15w_2_in_1_stand_2_4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ba2feb46-2f48-4bc5-ad36-f721bd8ec7cb_15promax-OtterBox-Figura.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/ba2feb46-2f48-4bc5-ad36-f721bd8ec7cb_15promax-OtterBox-Figura.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gutybcga20</Fingerprint>
+      <Integrity>mOaDbHBI+BsrPVMLrse1kI/Yamw4lN2eiuzeWSUZDlo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ba2feb46-2f48-4bc5-ad36-f721bd8ec7cb_15promax-OtterBox-Figura.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png'))">
       <SourceType>Package</SourceType>
@@ -1926,23 +3258,203 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\be327955-de41-4944-a363-d37788cbf2fc_00833472.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bf54c178-096d-4b35-9736-62c7e2b6e59a_2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
-      <RelativePath>uploads/be327955-de41-4944-a363-d37788cbf2fc_00833472.webp</RelativePath>
+      <RelativePath>uploads/bf54c178-096d-4b35-9736-62c7e2b6e59a_2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kwei0hkdmf</Fingerprint>
-      <Integrity>9H+qw6r6lYEyw4JI6pEViz2IPpOydO5kTkC1HSyyy5k=</Integrity>
+      <Fingerprint>mowpygpwfk</Fingerprint>
+      <Integrity>tqNDf4hnQpByFXfOJIwAChvbOKyvax/7CXG5+7kGrlE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\be327955-de41-4944-a363-d37788cbf2fc_00833472.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bf54c178-096d-4b35-9736-62c7e2b6e59a_2022_5_30_637895026955838629_CU-SAC-NHANH-INNOSTYLE-2CONG-12W-AVT.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bf939af1-d708-40ad-b240-c07d9d54f92a_16-pro-max-xam-da.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/bf939af1-d708-40ad-b240-c07d9d54f92a_16-pro-max-xam-da.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>88hwmnlc9f</Fingerprint>
+      <Integrity>yP7zFxrvmqKZCCCeh1XLCUlp0RJODpZZ2cd/Us5QNX4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bf939af1-d708-40ad-b240-c07d9d54f92a_16-pro-max-xam-da.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c53e88c0-8d9f-41b0-a187-7c1d745004b2_group_249_5_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/c53e88c0-8d9f-41b0-a187-7c1d745004b2_group_249_5_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gbexxnu5z3</Fingerprint>
+      <Integrity>vGOkH31nobYH5n4ciIaiuJX/Ezk4cQUpnMz5pjR8fWU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c53e88c0-8d9f-41b0-a187-7c1d745004b2_group_249_5_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cb5922f0-a88f-4e00-a94c-bc8b3d394307_group_1121_1_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/cb5922f0-a88f-4e00-a94c-bc8b3d394307_group_1121_1_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bj7zsxzhig</Fingerprint>
+      <Integrity>50D5C32LIS07OQDLYF7Rzdi55vJ1l2tyTW94KbKrDro=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cb5922f0-a88f-4e00-a94c-bc8b3d394307_group_1121_1_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ccf9e2bb-b582-4bc3-932c-b5ec9b7a410d_untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/ccf9e2bb-b582-4bc3-932c-b5ec9b7a410d_untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>if7rros5ox</Fingerprint>
+      <Integrity>okbgLVK304mWOBMUObqDIvXwl9zRNIfUrOhspfe8vro=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ccf9e2bb-b582-4bc3-932c-b5ec9b7a410d_untitled-1_592ff7e60161440cadd222aac5474534_grande.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d265f8b6-8214-46e6-9be0-e5269add3335_group_2003_3_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/d265f8b6-8214-46e6-9be0-e5269add3335_group_2003_3_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hv6qhzsd0k</Fingerprint>
+      <Integrity>TcIZY67nic4p2da+6HZ4Tt2CQ/eUflWXgVXzYNUwnuQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d265f8b6-8214-46e6-9be0-e5269add3335_group_2003_3_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d298441d-d413-4c1e-a280-0af9f7deee6f_thumb400_Energizer_HC3MPGY4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/d298441d-d413-4c1e-a280-0af9f7deee6f_thumb400_Energizer_HC3MPGY4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>984szpt2mo</Fingerprint>
+      <Integrity>l6RJKArnldXUFHGr4OkPEhcZIZp6J2lsRY+FLkyU3c4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d298441d-d413-4c1e-a280-0af9f7deee6f_thumb400_Energizer_HC3MPGY4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d543dca6-1d3e-4a6d-9b12-e6758c7a4825_HR282.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/d543dca6-1d3e-4a6d-9b12-e6758c7a4825_HR282.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f58lchvyp7</Fingerprint>
+      <Integrity>g/yj5gjS8JV+QilRMWjvFEYKtRezM7o1ZscuXjdNxVY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d543dca6-1d3e-4a6d-9b12-e6758c7a4825_HR282.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dac55567-6533-4c70-a2b2-9b17b896e21a_00916466.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/dac55567-6533-4c70-a2b2-9b17b896e21a_00916466.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1yodz6mny5</Fingerprint>
+      <Integrity>d0XcugPZ8Nb6yJeIhP5dG8Jhuaq/dKOTaSLU4jRJA0U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dac55567-6533-4c70-a2b2-9b17b896e21a_00916466.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\db5e4ad1-c270-4c13-9999-254a4e0336e3_big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/db5e4ad1-c270-4c13-9999-254a4e0336e3_big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>84r20gpujt</Fingerprint>
+      <Integrity>OLoIe2GF6QuLRTutjXbAKde+GGnwa4JNqxL6h/BVRmo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\db5e4ad1-c270-4c13-9999-254a4e0336e3_big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dca8d913-649d-4e45-970b-3ae46aac8cdd_big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/dca8d913-649d-4e45-970b-3ae46aac8cdd_big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7xw2fhwpe9</Fingerprint>
+      <Integrity>1VnQw1fQekbRcmD+UwW84UJ4cIvDWYyqHvdAM5kKIiI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dca8d913-649d-4e45-970b-3ae46aac8cdd_big_dan-man-hinh-kinh-cuong-luc-galaxy-s23-plus-tot-nhat-23021509152278279.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png'))">
       <SourceType>Package</SourceType>
@@ -1961,6 +3473,240 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e0fe45a8-544b-41fa-8ab4-f773d4406776_tai-nghe-co-day-baseus-encok-h17_4_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/e0fe45a8-544b-41fa-8ab4-f773d4406776_tai-nghe-co-day-baseus-encok-h17_4_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d0qoive1hn</Fingerprint>
+      <Integrity>ref2qkBk854XOUqjYs8z/fIciFC8UupsL7vNZEgxqvQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e0fe45a8-544b-41fa-8ab4-f773d4406776_tai-nghe-co-day-baseus-encok-h17_4_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e49e9d9e-02af-4972-8f8d-e647634153de_big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/e49e9d9e-02af-4972-8f8d-e647634153de_big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y50cwzg5yi</Fingerprint>
+      <Integrity>1lezg5DQYJVELnhAaJchpad/ka8t/ScQWRYjD+8fcxU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e49e9d9e-02af-4972-8f8d-e647634153de_big_bao-da-clear-view-s21-ultra-kem-s-pen-chinh-hang-gia-bao-nhieu-21011911093296670.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e82698ce-0c10-48fe-bd04-5059999af936_pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/e82698ce-0c10-48fe-bd04-5059999af936_pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7ymz97gzb</Fingerprint>
+      <Integrity>WnIiNcnUUf32ZW3FGZZnGZ+qRM0LBEAs7xhnWv+afUY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e82698ce-0c10-48fe-bd04-5059999af936_pin-sac-du-phong-anker-prime-a1336-20000mah-200w_2_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea759393-f3fd-427f-9a63-0abfced3bdc5_busd2-den.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/ea759393-f3fd-427f-9a63-0abfced3bdc5_busd2-den.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5lti5b7c4w</Fingerprint>
+      <Integrity>SQdb7LZ4sE1mZqgEKOghCOOgp2sft8dB2PUQaMD1MLo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea759393-f3fd-427f-9a63-0abfced3bdc5_busd2-den.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\eb5a699d-6eca-4882-b3c5-bd92d2464868_airpods-4-chong-on-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/eb5a699d-6eca-4882-b3c5-bd92d2464868_airpods-4-chong-on-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kl87mqzkgt</Fingerprint>
+      <Integrity>SNU9Y5R0vx44VpVquv805vSbzZw+W847Lz/iY6JPhXQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\eb5a699d-6eca-4882-b3c5-bd92d2464868_airpods-4-chong-on-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ebd51bb7-28e3-408e-9bbd-11ab59ba2fb3_pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/ebd51bb7-28e3-408e-9bbd-11ab59ba2fb3_pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g4w2pad52p</Fingerprint>
+      <Integrity>IECOzmWTIA0pfQVGw6RZV/IwHlPFdaYsQUod8dKcmHQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ebd51bb7-28e3-408e-9bbd-11ab59ba2fb3_pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef0c104b-d589-44a2-ac22-0c4721d609db_pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/ef0c104b-d589-44a2-ac22-0c4721d609db_pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g4w2pad52p</Fingerprint>
+      <Integrity>IECOzmWTIA0pfQVGw6RZV/IwHlPFdaYsQUod8dKcmHQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef0c104b-d589-44a2-ac22-0c4721d609db_pin-sac-du-phong-baseus-comet-20000mah-22-5w-kem-cap-lightning-to-type-c_16_.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0a77c11-b72d-4609-83b6-f71302a3b5cf_busd2-den.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/f0a77c11-b72d-4609-83b6-f71302a3b5cf_busd2-den.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5lti5b7c4w</Fingerprint>
+      <Integrity>SQdb7LZ4sE1mZqgEKOghCOOgp2sft8dB2PUQaMD1MLo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0a77c11-b72d-4609-83b6-f71302a3b5cf_busd2-den.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f1710f39-baec-401c-90c9-04f945b845e9_pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/f1710f39-baec-401c-90c9-04f945b845e9_pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0lvil3j3z1</Fingerprint>
+      <Integrity>nH4YITNMzTTQpzCnflUw+WJVY42V+tLMWajWCYPI2gE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f1710f39-baec-401c-90c9-04f945b845e9_pin-sac-du-phong-samsung-eb-p4520x-20-000-mah-45w-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f3bbef98-297c-4920-ad56-5a8f71184594_b9c33f1cc644221a7b55.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/f3bbef98-297c-4920-ad56-5a8f71184594_b9c33f1cc644221a7b55.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wmhkj4tqx8</Fingerprint>
+      <Integrity>SGnYxjVrNCQw0B/2k6fM42kdxTmE/H80mL3MxF0Gb3U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f3bbef98-297c-4920-ad56-5a8f71184594_b9c33f1cc644221a7b55.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f99afabc-733d-4dbf-a40f-deab48f57c34_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/f99afabc-733d-4dbf-a40f-deab48f57c34_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h5avpy5oq6</Fingerprint>
+      <Integrity>2+n7ln2LV/fAZ8/sEl/H7Oh4sCeuEiPSpVg3zaftT5Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f99afabc-733d-4dbf-a40f-deab48f57c34_big_op-lung-samsung-z-fold-2-aramid-standing-chinh-hang-ha-noi-20102116565264483.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fb4e2f43-35bd-4e95-9a0c-a9667b1d7134_big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/fb4e2f43-35bd-4e95-9a0c-a9667b1d7134_big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>84r20gpujt</Fingerprint>
+      <Integrity>OLoIe2GF6QuLRTutjXbAKde+GGnwa4JNqxL6h/BVRmo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fb4e2f43-35bd-4e95-9a0c-a9667b1d7134_big_bao-da-galaxy-z-fold-3-plus-5g-chinh-hang-gia-bao-nhieu.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ff396bcf-628a-48c9-9c9f-bd1d5fe38d6c_15promax-OtterBox-Figura.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebsiteBanPhuKien</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebsiteBanPhuKien</BasePath>
+      <RelativePath>uploads/ff396bcf-628a-48c9-9c9f-bd1d5fe38d6c_15promax-OtterBox-Figura.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gutybcga20</Fingerprint>
+      <Integrity>mOaDbHBI+BsrPVMLrse1kI/Yamw4lN2eiuzeWSUZDlo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ff396bcf-628a-48c9-9c9f-bd1d5fe38d6c_15promax-OtterBox-Figura.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebsiteBanPhuKien.ecj15kgyvz.bundle.scp.css'))">
       <SourceType>Package</SourceType>
