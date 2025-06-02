@@ -1,7 +1,10 @@
 ﻿<Project>
   <ItemGroup>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\admin.css))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -18,6 +21,9 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\admin.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\custom.css))">
       <SourceType>Package</SourceType>
@@ -36,7 +42,10 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\custom.css))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\header.css))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -53,6 +62,9 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\header.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))">
       <SourceType>Package</SourceType>
@@ -135,7 +147,11 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\banners\banner2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-logo.png))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))">
+>>>>>>> Stashed changes
 =======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))">
 >>>>>>> Stashed changes
@@ -144,7 +160,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/momo-logo.png</RelativePath>
+=======
+      <RelativePath>img/logo.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/logo.png</RelativePath>
 >>>>>>> Stashed changes
@@ -157,9 +177,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-logo.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-qr.png))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-logo.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -170,7 +196,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/momo-qr.png</RelativePath>
+=======
+      <RelativePath>img/momo-logo.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/momo-logo.png</RelativePath>
 >>>>>>> Stashed changes
@@ -183,9 +213,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-qr.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\OpLungdeo13.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-logo.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-qr.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-logo.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -196,7 +232,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/OpLungdeo13.jpg</RelativePath>
+=======
+      <RelativePath>img/momo-qr.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/momo-qr.png</RelativePath>
 >>>>>>> Stashed changes
@@ -209,9 +249,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\OpLungdeo13.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo14pro.png))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-qr.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\apple.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\momo-qr.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -222,7 +268,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungdeo14pro.png</RelativePath>
+=======
+      <RelativePath>img/partners/apple.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/apple.png</RelativePath>
 >>>>>>> Stashed changes
@@ -235,9 +285,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo14pro.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo15.png))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\apple.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Aukey.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\apple.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -248,7 +304,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungdeo15.png</RelativePath>
+=======
+      <RelativePath>img/partners/Aukey.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Aukey.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -261,9 +321,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeo15.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeofold5.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Aukey.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Baseus.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Aukey.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -274,7 +340,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungdeofold5.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/Baseus.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Baseus.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -287,9 +357,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeofold5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeos23.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Baseus.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Belkin.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Baseus.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -300,7 +376,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungdeos23.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/Belkin.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Belkin.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -313,9 +393,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdeos23.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdepnote20.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Belkin.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\findx5.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Belkin.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -326,7 +412,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungdepnote20.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/findx5.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/findx5.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -339,9 +429,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungdepnote20.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong 16.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\findx5.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\iFan.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\findx5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -352,7 +448,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungtrong 16.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/iFan.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/iFan.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -365,9 +465,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong 16.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong12.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\iFan.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\JBL.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\iFan.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -378,7 +484,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungtrong12.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/JBL.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/JBL.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -391,9 +501,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong12.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong34.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\JBL.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\logitech.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\JBL.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -404,7 +520,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungtrong34.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/logitech.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/logitech.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -417,9 +537,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong34.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong54.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\logitech.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Nillkin.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\logitech.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -430,7 +556,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oplungtrong54.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/Nillkin.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Nillkin.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -443,9 +573,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oplungtrong54.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa78.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Nillkin.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\oppo.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Nillkin.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -456,7 +592,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oppoa78.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/oppo.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/oppo.png</RelativePath>
 >>>>>>> Stashed changes
@@ -469,9 +609,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa78.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa96.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\oppo.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\realme.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\oppo.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -482,7 +628,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/oppoa96.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/realme.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/realme.png</RelativePath>
 >>>>>>> Stashed changes
@@ -495,9 +645,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\oppoa96.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\apple.png))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\realme.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\rezer.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\realme.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -508,7 +664,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/apple.png</RelativePath>
+=======
+      <RelativePath>img/partners/rezer.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/rezer.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -521,9 +681,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\apple.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Aukey.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\rezer.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Ringke.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\rezer.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -534,7 +700,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/Aukey.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/Ringke.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Ringke.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -547,9 +717,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Aukey.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Baseus.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Ringke.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\samsung.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Ringke.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -560,7 +736,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/Baseus.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/samsung.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/samsung.png</RelativePath>
 >>>>>>> Stashed changes
@@ -573,9 +753,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Baseus.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Belkin.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\samsung.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\sony.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\samsung.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -586,7 +772,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/Belkin.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/sony.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/sony.png</RelativePath>
 >>>>>>> Stashed changes
@@ -599,9 +789,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Belkin.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\findx5.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\sony.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Spigen.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\sony.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -612,7 +808,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/findx5.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/Spigen.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Spigen.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -625,9 +825,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\findx5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\iFan.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Spigen.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Tudia.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Spigen.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -638,7 +844,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/iFan.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/Tudia.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/Tudia.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -651,9 +861,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\iFan.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\JBL.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Tudia.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\UGreen.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Tudia.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -664,7 +880,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/JBL.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/UGreen.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/UGreen.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -677,9 +897,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\JBL.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\logitech.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\UGreen.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\vivo.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\UGreen.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -690,7 +916,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/logitech.jpg</RelativePath>
+=======
+      <RelativePath>img/partners/vivo.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/partners/vivo.png</RelativePath>
 >>>>>>> Stashed changes
@@ -703,9 +933,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\logitech.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Nillkin.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\vivo.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-logo.png))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\vivo.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -716,7 +952,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/Nillkin.jpg</RelativePath>
+=======
+      <RelativePath>img/zalopay-logo.png</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/zalopay-logo.png</RelativePath>
 >>>>>>> Stashed changes
@@ -729,9 +969,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\Nillkin.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\oppo.png))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-logo.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-qr.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-logo.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -742,7 +988,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>img/partners/oppo.png</RelativePath>
+=======
+      <RelativePath>img/zalopay-qr.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>img/zalopay-qr.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -754,6 +1004,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\partners\oppo.png))</OriginalItemSpec>
     </StaticWebAsset>
@@ -1029,6 +1280,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-qr.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-qr.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\zalopay-qr.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -1962,7 +2217,11 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0018bc81-44c9-4698-9d7b-d8e9288b0abe_oplungdeo15.png))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg))">
+>>>>>>> Stashed changes
 =======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg))">
 >>>>>>> Stashed changes
@@ -1980,9 +2239,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0018bc81-44c9-4698-9d7b-d8e9288b0abe_oplungdeo15.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -1993,7 +2258,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>uploads/221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg</RelativePath>
+=======
+      <RelativePath>uploads/176d977e-d136-4db7-8783-6cd2043b4fca_4.webp</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>uploads/176d977e-d136-4db7-8783-6cd2043b4fca_4.webp</RelativePath>
 >>>>>>> Stashed changes
@@ -2006,9 +2275,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp))</OriginalItemSpec>
     </StaticWebAsset>
@@ -2019,7 +2294,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>uploads/2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg</RelativePath>
+=======
+      <RelativePath>uploads/221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>uploads/221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg</RelativePath>
 >>>>>>> Stashed changes
@@ -2032,9 +2311,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp))">
+>>>>>>> Stashed changes
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg))</OriginalItemSpec>
     </StaticWebAsset>
@@ -2045,7 +2330,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>uploads/3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp</RelativePath>
+=======
+      <RelativePath>uploads/22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>uploads/22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp</RelativePath>
 >>>>>>> Stashed changes
@@ -2058,11 +2347,16 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp))</OriginalItemSpec>
     </StaticWebAsset>
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -2079,6 +2373,9 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png))">
       <SourceType>Package</SourceType>
@@ -2096,6 +2393,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\363fd31a-8884-4c47-9139-dfbf6d2d05e0_oplungdeo15.png))">
       <SourceType>Package</SourceType>
@@ -2131,6 +2429,8 @@
     </StaticWebAsset>
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -2148,7 +2448,11 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp))">
+>>>>>>> Stashed changes
 =======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp))">
 >>>>>>> Stashed changes
@@ -2157,7 +2461,11 @@
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebsiteBanPhuKien</BasePath>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <RelativePath>uploads/c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg</RelativePath>
+=======
+      <RelativePath>uploads/bcee1505-3126-4c37-b3ae-117447ce6258_1.webp</RelativePath>
+>>>>>>> Stashed changes
 =======
       <RelativePath>uploads/bcee1505-3126-4c37-b3ae-117447ce6258_1.webp</RelativePath>
 >>>>>>> Stashed changes
@@ -2170,11 +2478,16 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg))</OriginalItemSpec>
     </StaticWebAsset>
 =======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebsiteBanPhuKien</SourceId>
@@ -2207,6 +2520,9 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c13e9eed-10a2-439b-9f68-dfce4f9ce1b0_oplungtrong 16.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png))">
       <SourceType>Package</SourceType>

@@ -1,7 +1,11 @@
 {
   "Version": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "Hash": "kh8dM+cCWKIljParqXgq2ZbebRu550e66ngmYU0amnc=",
+=======
+  "Hash": "Yi7RpP/Lu+YuMF0dkTbq7EOWyTaGryAkgOZrAp2OVM8=",
+>>>>>>> Stashed changes
 =======
   "Hash": "Yi7RpP/Lu+YuMF0dkTbq7EOWyTaGryAkgOZrAp2OVM8=",
 >>>>>>> Stashed changes
@@ -1200,7 +1204,11 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\custom.css",
+=======
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\admin.css",
+>>>>>>> Stashed changes
 =======
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\admin.css",
 >>>>>>> Stashed changes
@@ -1209,7 +1217,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "css/custom.css",
+=======
+      "RelativePath": "css/admin.css",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "css/admin.css",
 >>>>>>> Stashed changes
@@ -1224,10 +1236,13 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
 =======
+=======
+>>>>>>> Stashed changes
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
@@ -1269,6 +1284,9 @@
       "OriginalItemSpec": "wwwroot\\css\\header.css"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\css\\site.css",
       "SourceId": "WebsiteBanPhuKien",
@@ -1366,7 +1384,11 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-logo.png",
+=======
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\logo.png",
+>>>>>>> Stashed changes
 =======
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\logo.png",
 >>>>>>> Stashed changes
@@ -1375,7 +1397,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/momo-logo.png",
+=======
+      "RelativePath": "img/logo.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/logo.png",
 >>>>>>> Stashed changes
@@ -1390,10 +1416,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\momo-logo.png"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-qr.png",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-logo.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
@@ -1405,7 +1438,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/momo-qr.png",
+=======
+      "RelativePath": "img/momo-logo.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/momo-logo.png",
 >>>>>>> Stashed changes
@@ -1420,10 +1457,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\momo-qr.png"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\OpLungdeo13.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\momo-logo.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\momo-qr.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\momo-logo.png"
     },
@@ -1435,7 +1479,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/OpLungdeo13.jpg",
+=======
+      "RelativePath": "img/momo-qr.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/momo-qr.png",
 >>>>>>> Stashed changes
@@ -1450,10 +1498,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\OpLungdeo13.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungdeo14pro.png",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\momo-qr.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\apple.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\momo-qr.png"
     },
@@ -1465,7 +1520,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungdeo14pro.png",
+=======
+      "RelativePath": "img/partners/apple.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/apple.png",
 >>>>>>> Stashed changes
@@ -1480,10 +1539,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungdeo14pro.png"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungdeo15.png",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\apple.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Aukey.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\apple.png"
     },
@@ -1495,7 +1561,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungdeo15.png",
+=======
+      "RelativePath": "img/partners/Aukey.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Aukey.jpg",
 >>>>>>> Stashed changes
@@ -1510,10 +1580,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungdeo15.png"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungdeofold5.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Aukey.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Baseus.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Aukey.jpg"
     },
@@ -1525,7 +1602,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungdeofold5.jpg",
+=======
+      "RelativePath": "img/partners/Baseus.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Baseus.jpg",
 >>>>>>> Stashed changes
@@ -1540,10 +1621,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungdeofold5.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungdeos23.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Baseus.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Belkin.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Baseus.jpg"
     },
@@ -1555,7 +1643,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungdeos23.jpg",
+=======
+      "RelativePath": "img/partners/Belkin.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Belkin.jpg",
 >>>>>>> Stashed changes
@@ -1570,10 +1662,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungdeos23.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungdepnote20.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Belkin.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\findx5.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Belkin.jpg"
     },
@@ -1585,7 +1684,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungdepnote20.jpg",
+=======
+      "RelativePath": "img/partners/findx5.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/findx5.jpg",
 >>>>>>> Stashed changes
@@ -1600,10 +1703,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungdepnote20.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungtrong 16.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\findx5.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\iFan.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\findx5.jpg"
     },
@@ -1615,7 +1725,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungtrong 16.jpg",
+=======
+      "RelativePath": "img/partners/iFan.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/iFan.jpg",
 >>>>>>> Stashed changes
@@ -1630,10 +1744,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungtrong 16.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungtrong12.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\iFan.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\JBL.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\iFan.jpg"
     },
@@ -1645,7 +1766,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungtrong12.jpg",
+=======
+      "RelativePath": "img/partners/JBL.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/JBL.jpg",
 >>>>>>> Stashed changes
@@ -1660,10 +1785,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungtrong12.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungtrong34.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\JBL.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\logitech.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\JBL.jpg"
     },
@@ -1675,7 +1807,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungtrong34.jpg",
+=======
+      "RelativePath": "img/partners/logitech.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/logitech.jpg",
 >>>>>>> Stashed changes
@@ -1690,10 +1826,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungtrong34.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oplungtrong54.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\logitech.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Nillkin.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\logitech.jpg"
     },
@@ -1705,7 +1848,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oplungtrong54.jpg",
+=======
+      "RelativePath": "img/partners/Nillkin.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Nillkin.jpg",
 >>>>>>> Stashed changes
@@ -1720,10 +1867,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oplungtrong54.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oppoa78.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Nillkin.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\oppo.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Nillkin.jpg"
     },
@@ -1735,7 +1889,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oppoa78.jpg",
+=======
+      "RelativePath": "img/partners/oppo.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/oppo.png",
 >>>>>>> Stashed changes
@@ -1750,10 +1908,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oppoa78.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\oppoa96.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\oppo.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\realme.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\oppo.png"
     },
@@ -1765,7 +1930,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/oppoa96.jpg",
+=======
+      "RelativePath": "img/partners/realme.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/realme.png",
 >>>>>>> Stashed changes
@@ -1780,10 +1949,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\oppoa96.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\apple.png",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\realme.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\rezer.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\realme.png"
     },
@@ -1795,7 +1971,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/apple.png",
+=======
+      "RelativePath": "img/partners/rezer.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/rezer.jpg",
 >>>>>>> Stashed changes
@@ -1810,10 +1990,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\apple.png"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Aukey.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\rezer.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Ringke.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\rezer.jpg"
     },
@@ -1825,7 +2012,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/Aukey.jpg",
+=======
+      "RelativePath": "img/partners/Ringke.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Ringke.jpg",
 >>>>>>> Stashed changes
@@ -1840,10 +2031,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\Aukey.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Baseus.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Ringke.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\samsung.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Ringke.jpg"
     },
@@ -1855,7 +2053,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/Baseus.jpg",
+=======
+      "RelativePath": "img/partners/samsung.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/samsung.png",
 >>>>>>> Stashed changes
@@ -1870,10 +2072,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\Baseus.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Belkin.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\samsung.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\sony.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\samsung.png"
     },
@@ -1885,7 +2094,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/Belkin.jpg",
+=======
+      "RelativePath": "img/partners/sony.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/sony.png",
 >>>>>>> Stashed changes
@@ -1900,10 +2113,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\Belkin.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\findx5.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\sony.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Spigen.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\sony.png"
     },
@@ -1915,7 +2135,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/findx5.jpg",
+=======
+      "RelativePath": "img/partners/Spigen.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Spigen.jpg",
 >>>>>>> Stashed changes
@@ -1930,10 +2154,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\findx5.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\iFan.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Spigen.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Tudia.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Spigen.jpg"
     },
@@ -1945,7 +2176,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/iFan.jpg",
+=======
+      "RelativePath": "img/partners/Tudia.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/Tudia.jpg",
 >>>>>>> Stashed changes
@@ -1960,10 +2195,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\iFan.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\JBL.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\Tudia.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\UGreen.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\Tudia.jpg"
     },
@@ -1975,7 +2217,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/JBL.jpg",
+=======
+      "RelativePath": "img/partners/UGreen.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/UGreen.jpg",
 >>>>>>> Stashed changes
@@ -1990,10 +2236,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\JBL.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\logitech.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\UGreen.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\vivo.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\UGreen.jpg"
     },
@@ -2005,7 +2258,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/logitech.jpg",
+=======
+      "RelativePath": "img/partners/vivo.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/partners/vivo.png",
 >>>>>>> Stashed changes
@@ -2020,10 +2277,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\logitech.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\Nillkin.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\partners\\vivo.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\zalopay-logo.png",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\partners\\vivo.png"
     },
@@ -2035,7 +2299,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/Nillkin.jpg",
+=======
+      "RelativePath": "img/zalopay-logo.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/zalopay-logo.png",
 >>>>>>> Stashed changes
@@ -2050,10 +2318,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\Nillkin.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\oppo.png",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\zalopay-logo.png"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\zalopay-qr.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\zalopay-logo.png"
     },
@@ -2065,7 +2340,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/oppo.png",
+=======
+      "RelativePath": "img/zalopay-qr.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "img/zalopay-qr.jpg",
 >>>>>>> Stashed changes
@@ -2080,10 +2359,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\img\\partners\\oppo.png"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\img\\partners\\realme.png",
+=======
+      "OriginalItemSpec": "wwwroot\\img\\zalopay-qr.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\js\\site.js",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\img\\zalopay-qr.jpg"
     },
@@ -2095,7 +2381,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "img/partners/realme.png",
+=======
+      "RelativePath": "js/site.js",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "js/site.js",
 >>>>>>> Stashed changes
@@ -2107,6 +2397,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
@@ -2431,6 +2722,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
@@ -3361,6 +3654,9 @@
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
@@ -3522,16 +3818,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\0018bc81-44c9-4698-9d7b-d8e9288b0abe_oplungdeo15.png",
+=======
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg",
+>>>>>>> Stashed changes
       "SourceId": "WebsiteBanPhuKien",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
+<<<<<<< Updated upstream
       "RelativePath": "uploads/0018bc81-44c9-4698-9d7b-d8e9288b0abe_oplungdeo15.png",
+=======
+      "RelativePath": "uploads/1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "AssetMergeSource": "",
@@ -3540,6 +3847,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
@@ -3548,14 +3856,24 @@
 =======
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
 >>>>>>> Stashed changes
+=======
+      "OriginalItemSpec": "wwwroot\\uploads\\1338bb03-d7e8-4cc2-b1e1-206150ea4b8b_oplungtrong 16.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp",
+>>>>>>> Stashed changes
       "SourceId": "WebsiteBanPhuKien",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg",
 =======
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+>>>>>>> Stashed changes
+=======
+      "RelativePath": "uploads/176d977e-d136-4db7-8783-6cd2043b4fca_4.webp",
 >>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3567,6 +3885,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg"
     },
@@ -3578,14 +3897,24 @@
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
 >>>>>>> Stashed changes
+=======
+      "OriginalItemSpec": "wwwroot\\uploads\\176d977e-d136-4db7-8783-6cd2043b4fca_4.webp"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg",
+>>>>>>> Stashed changes
       "SourceId": "WebsiteBanPhuKien",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg",
 =======
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+>>>>>>> Stashed changes
+=======
+      "RelativePath": "uploads/221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg",
 >>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3597,6 +3926,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\uploads\\2d100c54-82cc-4f59-a8f8-d06eaf03e87a_xiaomi14.jpg"
     },
@@ -3608,14 +3938,24 @@
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
 >>>>>>> Stashed changes
+=======
+      "OriginalItemSpec": "wwwroot\\uploads\\221fb593-1439-497a-8888-bed1ee54b7dc_OpLungdeo13.jpg"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp",
+>>>>>>> Stashed changes
       "SourceId": "WebsiteBanPhuKien",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp",
 =======
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+>>>>>>> Stashed changes
+=======
+      "RelativePath": "uploads/22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp",
 >>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3627,6 +3967,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp"
     },
@@ -3638,14 +3979,24 @@
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
 >>>>>>> Stashed changes
+=======
+      "OriginalItemSpec": "wwwroot\\uploads\\22d01b27-8f7e-414b-b9f2-3147fe5d337c_4.webp"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp",
+>>>>>>> Stashed changes
       "SourceId": "WebsiteBanPhuKien",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png",
 =======
       "RelativePath": "lib/jquery-validation/LICENSE.md",
+>>>>>>> Stashed changes
+=======
+      "RelativePath": "uploads/3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp",
 >>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3656,6 +4007,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
@@ -3663,11 +4015,23 @@
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3330d6fc-1816-4c3e-b58f-e18cd0e0fb70_tintuc1.webp"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png",
+>>>>>>> Stashed changes
       "SourceId": "WebsiteBanPhuKien",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
+<<<<<<< Updated upstream
       "RelativePath": "lib/jquery/dist/jquery.js",
+=======
+      "RelativePath": "uploads/3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3676,6 +4040,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
@@ -3848,13 +4213,19 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\3617794f-542b-4708-8b4a-30dd67e964d4_oplungdeo15.png"
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\363fd31a-8884-4c47-9139-dfbf6d2d05e0_oplungdeo15.png",
+=======
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
+>>>>>>> Stashed changes
 =======
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
 >>>>>>> Stashed changes
@@ -3863,7 +4234,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/363fd31a-8884-4c47-9139-dfbf6d2d05e0_oplungdeo15.png",
+=======
+      "RelativePath": "uploads/bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "uploads/bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png",
 >>>>>>> Stashed changes
@@ -3875,6 +4250,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
@@ -3916,13 +4292,19 @@
       "AssetTraitValue": "",
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\bc046be3-122d-4338-bd49-10c82d91ae31_oplungdeo15.png"
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
+=======
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp",
+>>>>>>> Stashed changes
 =======
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp",
 >>>>>>> Stashed changes
@@ -3931,7 +4313,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
+=======
+      "RelativePath": "uploads/bcee1505-3126-4c37-b3ae-117447ce6258_1.webp",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "uploads/bcee1505-3126-4c37-b3ae-117447ce6258_1.webp",
 >>>>>>> Stashed changes
@@ -3946,10 +4332,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "OriginalItemSpec": "wwwroot\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg"
     },
     {
       "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png",
+=======
+      "OriginalItemSpec": "wwwroot\\uploads\\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp"
+    },
+    {
+      "Identity": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
+>>>>>>> Stashed changes
 =======
       "OriginalItemSpec": "wwwroot\\uploads\\bcee1505-3126-4c37-b3ae-117447ce6258_1.webp"
     },
@@ -3961,7 +4354,11 @@
       "ContentRoot": "C:\\WebPhuKien\\WebsiteBanPhuKien\\wwwroot\\",
       "BasePath": "_content/WebsiteBanPhuKien",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "RelativePath": "uploads/e059a62b-d291-4c8c-bb99-9328ac2ae158_oplungdeo14pro.png",
+=======
+      "RelativePath": "uploads/c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
+>>>>>>> Stashed changes
 =======
       "RelativePath": "uploads/c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg",
 >>>>>>> Stashed changes
@@ -3974,7 +4371,10 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\c138aad5-17d3-4a35-8218-adcc6ac086fe_xiaomi14.jpg"
@@ -4013,6 +4413,9 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",

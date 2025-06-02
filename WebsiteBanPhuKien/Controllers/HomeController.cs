@@ -75,6 +75,9 @@ namespace WebsiteBanPhuKien.Controllers
 
         public IActionResult GioiThieu()
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
         {
             return View();
         }
@@ -84,6 +87,7 @@ namespace WebsiteBanPhuKien.Controllers
             return View();
         }
 
+<<<<<<< Updated upstream
         public IActionResult Privacy()
 =======
 >>>>>>> Stashed changes
@@ -96,6 +100,8 @@ namespace WebsiteBanPhuKien.Controllers
             return View();
         }
 
+=======
+>>>>>>> Stashed changes
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

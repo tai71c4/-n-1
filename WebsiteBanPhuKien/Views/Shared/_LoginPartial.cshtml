@@ -7,6 +7,7 @@
 {
     <li class="nav-item dropdown">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <a class="nav-link dropdown-toggle text-white" href="#" id="userDropdown" role="button" 
            data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-user-circle me-1"></i>@User.Identity?.Name
@@ -24,6 +25,16 @@
             <span class="d-none d-lg-inline-block ms-1">@User.Identity?.Name</span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+=======
+        <a class="nav-link dropdown-toggle user-dropdown-toggle" href="#" id="userDropdown" role="button" 
+           data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="user-avatar">
+                <i class="fas fa-user"></i>
+            </span>
+            <span class="d-none d-lg-inline-block ms-1">@User.Identity?.Name</span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+>>>>>>> Stashed changes
             <li class="dropdown-header">
                 <div class="d-flex align-items-center">
                     <div class="user-avatar-lg me-3">
@@ -39,13 +50,20 @@
             <li>
                 <a class="dropdown-item" href="/Account/ThongTinCaNhan">
                     <i class="fas fa-user-cog me-2 text-accent"></i>Tài khoản
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 </a>
             </li>
             <li>
                 <a class="dropdown-item" href="/Account/DoiMatKhau">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     <i class="fas fa-key me-2"></i>Đổi mật khẩu
+=======
+                    <i class="fas fa-key me-2 text-accent"></i>Đổi mật khẩu
+>>>>>>> Stashed changes
 =======
                     <i class="fas fa-key me-2 text-accent"></i>Đổi mật khẩu
 >>>>>>> Stashed changes
@@ -54,7 +72,11 @@
             <li>
                 <a class="dropdown-item" href="/Order/LichSu">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     <i class="fas fa-history me-2"></i>Lịch sử đơn hàng
+=======
+                    <i class="fas fa-history me-2 text-accent"></i>Lịch sử đơn hàng
+>>>>>>> Stashed changes
 =======
                     <i class="fas fa-history me-2 text-accent"></i>Lịch sử đơn hàng
 >>>>>>> Stashed changes
@@ -63,14 +85,20 @@
             @if (User.IsInRole("Admin"))
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <li>
                     <a class="dropdown-item" href="/Admin/Dashboard">
                         <i class="fas fa-cog me-2"></i>Quản trị
 =======
+=======
+>>>>>>> Stashed changes
                 <li><hr class="dropdown-divider"></li>
                 <li>
                     <a class="dropdown-item" href="/Admin/Dashboard">
                         <i class="fas fa-cog me-2 text-accent"></i>Quản trị
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     </a>
                 </li>
@@ -80,7 +108,11 @@
                 <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                     <button type="submit" class="dropdown-item">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         <i class="fas fa-sign-out-alt me-2"></i>Đăng xuất
+=======
+                        <i class="fas fa-sign-out-alt me-2 text-accent"></i>Đăng xuất
+>>>>>>> Stashed changes
 =======
                         <i class="fas fa-sign-out-alt me-2 text-accent"></i>Đăng xuất
 >>>>>>> Stashed changes
@@ -93,6 +125,7 @@
 else
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <li class="nav-item">
         <a class="nav-link text-white" href="/Identity/Account/Register">
             <i class="fas fa-user-plus me-1"></i>Đăng ký
@@ -101,6 +134,16 @@ else
     <li class="nav-item">
         <a class="nav-link text-white" href="/Identity/Account/Login">
             <i class="fas fa-sign-in-alt me-1"></i>Đăng nhập
+=======
+    <li class="nav-item me-2">
+        <a class="nav-link" href="/Account/DangNhap">
+            <i class="fas fa-sign-in-alt me-1"></i>Đăng nhập
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/Account/DangKy">
+            <i class="fas fa-user-plus me-1"></i>Đăng ký
+>>>>>>> Stashed changes
 =======
     <li class="nav-item me-2">
         <a class="nav-link" href="/Account/DangNhap">
